@@ -1,0 +1,5 @@
+30.10.2025, 11:45:56 - ERROR - Cannot save bug | ReferenceError: _saveBugsToFile is not defined
+30.10.2025, 11:47:16 - ERROR - Cannot save bug | ReferenceError: _makeId is not defined
+30.10.2025, 11:47:38 - ERROR - Cannot save bug | ReferenceError: _makeId is not defined
+30.10.2025, 11:48:16 - ERROR - Cannot save bug | ReferenceError: makeIdakeId is not defined
+30.10.2025, 14:50:39 - ERROR - Cannot get bug removeUcSVIq | Error: Bug not found

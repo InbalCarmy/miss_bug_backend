@@ -1,0 +1,51 @@
+[
+  {
+    "_id": "a1b2c3",
+    "title": "Failed to load user profile",
+    "description": "User profiles fail to load due to missing or corrupted data returned from the API. Affects login and personalization features.",
+    "severity": 4,
+    "createdAt": 1642107359454
+  },
+  {
+    "_id": "d4e5f6",
+    "title": "Database connection timeout",
+    "description": "The backend server fails to connect to the database within the expected time window, possibly caused by network latency or DB overload.",
+    "severity": 5,
+    "createdAt": 1643107359454
+  },
+  {
+    "_id": "g7h8i9",
+    "title": "UI button not responding",
+    "description": "Click events on certain UI buttons are not being registered, likely due to missing event listeners or overlapping elements in the layout.",
+    "severity": 1,
+    "createdAt": 1644107359454
+  },
+  {
+    "_id": "j0k1l2",
+    "title": "Memory leak in background service",
+    "description": "A background process continuously allocates memory without releasing it, leading to performance degradation over time.",
+    "severity": 4,
+    "createdAt": 1645107359454
+  },
+  {
+    "_id": "m3n4o5",
+    "title": "User session expires too early",
+    "description": "Sessions are expiring before the intended duration, forcing users to reauthenticate frequently. May be related to token TTL misconfiguration.",
+    "severity": 3,
+    "createdAt": 1646107359454
+  },
+  {
+    "_id": "p6q7r8",
+    "title": "Notification not sent on error",
+    "description": "Error-triggered notifications are not being sent to users or admins. Likely an issue with the error-handling or notification service.",
+    "severity": 2,
+    "createdAt": 1647107359454
+  },
+  {
+    "_id": "phRL2F",
+    "title": "New Bug",
+    "description": "Recently reported issue requiring triage. Details pending investigation and reproduction steps.",
+    "severity": 2,
+    "createdAt": 1761829104852
+  }
+]
