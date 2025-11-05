@@ -44,8 +44,7 @@
     {
         "_id": "phRL2F",
         "title": "New Bug",
-        "description": "Recently reported issue requiring triage. Details pending investigation and reproduction steps.",
-        "severity": 2,
-        "createdAt": 1761829104852
+        "severity": "3",
+        "description": "Recently reported issue requiring triage. Details pending investigation and reproduction steps."
     }
 ]

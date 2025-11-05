@@ -1,5 +1,7 @@
 import express from 'express';
 import cors from 'cors'
+import cookieParser from 'cookie-parser'
+
 
 import {bugService} from './services/bug.service.js'
 import { loggerService } from './services/logger.service.js'
@@ -20,7 +22,7 @@ const corsOptions = {
 }
 
 app.use(cors(corsOptions))
-// app.use(cookieParser())
+app.use(cookieParser())
 
 
 
@@ -44,7 +46,7 @@ app.get('/api/bug/save', async(req, res) => {
         title: req.query.title,
         severity: req.query.severity,
         description: req.query.description,
-        createdAt: req.query.createdAt
+        // createdAt: req.query.createdAt
     }
 
     try{
@@ -57,17 +59,30 @@ app.get('/api/bug/save', async(req, res) => {
 })
 
 //* Read
-app.get('/api/bug/:bugId', async(req, res) => {
+app.get('/api/bug/:bugId', async (req, res) => {
     const { bugId } = req.params
-    try{
-        const bug = await bugService.getById(bugId);
-        res.send(bug)       
-    }catch (err) {
-        loggerService.error(`Cannot get bug ${bugId}`, err)
-        res.status(400).send('Cannot get bug')
+    if (req.cookies.visitedBugs) {
+        var visitedBugs = JSON.parse(req.cookies.visitedBugs)
+    } else {
+        var visitedBugs = []
+    }
+
+    if (!visitedBugs.includes(bugId)) {
+        if (visitedBugs.length < 3) visitedBugs.push(bugId)
+        else return res.status(401).send('wait for while...')
+    }
+
+    res.cookie('visitedBugs', JSON.stringify(visitedBugs), { maxAge: 10000 })
+    console.log(visitedBugs)
+
+    try {
+        const bug = await bugService.getById(bugId)
+        res.send(bug)
+    } catch (err) {
+        loggerService.error(`Couldn't get bug ${bugId}`, err)
+        res.status(400).send(`Couldn't get bug`)
     }
 })
-
 
 //* Delete
 app.get('/api/bug/remove/:bugId', async(req, res) => {
