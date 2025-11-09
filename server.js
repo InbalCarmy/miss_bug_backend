@@ -24,19 +24,38 @@ const corsOptions = {
 app.use(cors(corsOptions))
 app.use(cookieParser())
 app.use(express.json())
+app.set('query parser', 'extended')
 
 
 
 
 //*------------ Bugs CRUD ---------------
 //* Read/List
+// app.get('/api/bug', async(req, res) => {
+//     try{
+//         const bugs = await bugService.query();
+//         res.send(bugs)
+//     }catch (err){
+//         localStorage.errer('Cannot get bugs', err)
+//         res.status(400).send('Cannot get bugs')
+//     }
+// })
+
 app.get('/api/bug', async(req, res) => {
+    const { txt, minSeverity, labels } = req.query
+    const filterBy = {
+        txt,
+        minSeverity: minSeverity ? +minSeverity : 0,
+        labels: labels ? labels.split(',') : []
+    }
+    console.log('filterBy:', filterBy)
     try{
-        const bugs = await bugService.query();
+        const bugs = await bugService.query(filterBy);
         res.send(bugs)
-    }catch (err){
-        localStorage.errer('Cannot get bugs', err)
+    } catch (err){
+        loggerService.error('Cannot get bugs', err)
         res.status(400).send('Cannot get bugs')
+
     }
 })
 

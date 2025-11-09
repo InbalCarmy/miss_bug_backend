@@ -1,3 +1,4 @@
+import { loggerService } from "./logger.service.js"
 import { readJsonFile, writeJsonFile, makeId } from "./utils.js"
 
 
@@ -10,14 +11,40 @@ export const bugService = {
 
 const bugs = readJsonFile('./data/bugs.json')
 
-async function query() {
+// async function query() {
+//     try{
+//         return bugs
+//     }catch (err){
+//         throw err
+//     }
+// }
+
+async function query(filterBy) {
+    let bugsToDisplay = bugs
     try{
-        return bugs
-    }catch (err){
+        if(filterBy.txt){
+            const regExp = new RegExp(filterBy.txt, 'i')
+            // bugsToDisplay = bugsToDisplay.filter(bug => regExp.test(bug.title) || regExp.test(bug.description))
+            bugsToDisplay = bugsToDisplay.filter(bug => regExp.test(bug.title))
+
+        }
+
+        if(filterBy.minSeverity){
+            bugsToDisplay = bugsToDisplay.filter(bug => bug.severity >= filterBy.minSeverity)
+        }
+
+        if(filterBy.labels && filterBy.labels.length){
+            bugsToDisplay = bugsToDisplay.filter(bug => 
+                filterBy.labels.every(label => bug.labels.includes(label))
+            )
+        }
+
+        return bugsToDisplay
+    }  catch (err){
+        loggerService.error('Cannot filter bugs', err) 
         throw err
     }
 }
-
 
 async function save(bugToSave){
     try{
