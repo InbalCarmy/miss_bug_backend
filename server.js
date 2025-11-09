@@ -23,6 +23,7 @@ const corsOptions = {
 
 app.use(cors(corsOptions))
 app.use(cookieParser())
+app.use(express.json())
 
 
 
@@ -36,25 +37,6 @@ app.get('/api/bug', async(req, res) => {
     }catch (err){
         localStorage.errer('Cannot get bugs', err)
         res.status(400).send('Cannot get bugs')
-    }
-})
-
-//* Add/Update
-app.get('/api/bug/save', async(req, res) => {
-    const bugToSave = {
-        _id: req.query._id,
-        title: req.query.title,
-        severity: req.query.severity,
-        description: req.query.description,
-        // createdAt: req.query.createdAt
-    }
-
-    try{
-        const savedBug = await bugService.save(bugToSave);
-        res.send(savedBug)
-    }catch (err) {
-        loggerService.error('Cannot save bug', err)
-        res.status(400).send('Cannot save bug')
     }
 })
 
@@ -84,8 +66,33 @@ app.get('/api/bug/:bugId', async (req, res) => {
     }
 })
 
+//* Add/Update
+app.put('/api/bug/:bugId', async(req, res) => {
+    const { _id, title, severity, description, labels } = req.body
+    const bugToSave = { _id, title, severity, description, labels }
+    try{
+        const savedBug = await bugService.save(bugToSave);
+        res.send(savedBug)
+    }catch (err) {
+        loggerService.error('Cannot save bug', err)
+        res.status(400).send('Cannot save bug')
+    }
+})
+
+app.post('/api/bug', async(req, res) => {
+    const { _id, title, severity, description, labels } = req.body
+    const bugToSave = { _id, title, severity, description, labels }
+    try{
+        const savedBug = await bugService.save(bugToSave);
+        res.send(savedBug)
+    }catch (err) {
+        loggerService.error('Cannot save bug', err)
+        res.status(400).send('Cannot save bug')
+    }
+})
+
 //* Delete
-app.get('/api/bug/remove/:bugId', async(req, res) => {
+app.delete('/api/bug/:bugId', async(req, res) => {
     const { bugId } = req.params
     try{
         await bugService.remove(bugId);
@@ -95,13 +102,6 @@ app.get('/api/bug/remove/:bugId', async(req, res) => {
         res.status(400).send('Cannot remove bug')
     }
 })
-
-
-
-
-
-
-
 
 
 
