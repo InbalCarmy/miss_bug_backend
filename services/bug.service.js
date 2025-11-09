@@ -12,14 +12,6 @@ export const bugService = {
 const bugs = readJsonFile('./data/bugs.json')
 const PAGE_SIZE = 3
 
-// async function query() {
-//     try{
-//         return bugs
-//     }catch (err){
-//         throw err
-//     }
-// }
-
 async function query(filterBy) {
     let bugsToDisplay = bugs
     try{
@@ -40,9 +32,28 @@ async function query(filterBy) {
             )
         }
 
+        // Sorting
+        if(filterBy.sortBy){
+            bugsToDisplay.sort((a, b) => {
+                let aVal = a[filterBy.sortBy]
+                let bVal = b[filterBy.sortBy]
+
+                // Handle string vs number comparison
+                if(typeof aVal === 'string') {
+                    aVal = aVal.toLowerCase()
+                    bVal = bVal.toLowerCase()
+                }
+
+                // sortDir: 1 = ascending, -1 = descending
+                if(aVal > bVal) return 1 * filterBy.sortDir
+                if(aVal < bVal) return -1 * filterBy.sortDir
+                return 0
+            })
+        }
+
         if('pageIdx' in filterBy) {
-            const startIdx = filterBy.pageIdx * PAGE_SIZE 
-            bugsToDisplay = bugsToDisplay.slice(startIdx, startIdx + PAGE_SIZE)       
+            const startIdx = filterBy.pageIdx * PAGE_SIZE
+            bugsToDisplay = bugsToDisplay.slice(startIdx, startIdx + PAGE_SIZE)
         }
 
         return bugsToDisplay

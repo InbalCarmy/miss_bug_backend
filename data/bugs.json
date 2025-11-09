@@ -1,5 +1,53 @@
 [
     {
+        "_id": "p6q7r8",
+        "title": "Notification not sent on error",
+        "description": "Error-triggered notifications are not being sent to users or admins. Likely an issue with the error-handling or notification service.",
+        "severity": 2,
+        "createdAt": 1647107359454,
+        "labels": [
+            "notifications",
+            "error-handling",
+            "backend"
+        ]
+    },
+    {
+        "_id": "m3n4o5",
+        "title": "User session expires too early",
+        "description": "Sessions are expiring before the intended duration, forcing users to reauthenticate frequently. May be related to token TTL misconfiguration.",
+        "severity": 3,
+        "createdAt": 1646107359454,
+        "labels": [
+            "auth",
+            "token",
+            "config"
+        ]
+    },
+    {
+        "_id": "j0k1l2",
+        "title": "Memory leak in background service",
+        "description": "A background process continuously allocates memory without releasing it, leading to performance degradation over time.",
+        "severity": 4,
+        "createdAt": 1645107359454,
+        "labels": [
+            "performance",
+            "memory",
+            "backend"
+        ]
+    },
+    {
+        "_id": "g7h8i9",
+        "title": "UI button not responding",
+        "description": "Click events on certain UI buttons are not being registered, likely due to missing event listeners or overlapping elements in the layout.",
+        "severity": 1,
+        "createdAt": 1644107359454,
+        "labels": [
+            "frontend",
+            "UI",
+            "event-listener"
+        ]
+    },
+    {
         "_id": "a1b2c3",
         "title": "Failed to load user profile",
         "severity": 5,
@@ -23,57 +71,16 @@
         ]
     },
     {
-        "_id": "g7h8i9",
-        "title": "UI button not responding",
-        "description": "Click events on certain UI buttons are not being registered, likely due to missing event listeners or overlapping elements in the layout.",
-        "severity": 1,
-        "createdAt": 1644107359454,
-        "labels": [
-            "frontend",
-            "UI",
-            "event-listener"
-        ]
-    },
-    {
-        "_id": "j0k1l2",
-        "title": "Memory leak in background service",
-        "description": "A background process continuously allocates memory without releasing it, leading to performance degradation over time.",
-        "severity": 4,
-        "createdAt": 1645107359454,
-        "labels": [
-            "performance",
-            "memory",
-            "backend"
-        ]
-    },
-    {
-        "_id": "m3n4o5",
-        "title": "User session expires too early",
-        "description": "Sessions are expiring before the intended duration, forcing users to reauthenticate frequently. May be related to token TTL misconfiguration.",
-        "severity": 3,
-        "createdAt": 1646107359454,
-        "labels": [
-            "auth",
-            "token",
-            "config"
-        ]
-    },
-    {
-        "_id": "p6q7r8",
-        "title": "Notification not sent on error",
-        "description": "Error-triggered notifications are not being sent to users or admins. Likely an issue with the error-handling or notification service.",
-        "severity": 2,
-        "createdAt": 1647107359454,
-        "labels": [
-            "notifications",
-            "error-handling",
-            "backend"
-        ]
-    },
-    {
         "_id": "462k3v",
         "title": "",
         "severity": 2,
         "description": ""
+    },
+    {
+        "_id": "xWWQri",
+        "title": "New Bug",
+        "severity": 3,
+        "description": "the cumputer doesnt work",
+        "createdAt": 1762690485765
     }
 ]

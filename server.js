@@ -31,25 +31,17 @@ app.set('query parser', 'extended')
 
 //*------------ Bugs CRUD ---------------
 //* Read/List
-// app.get('/api/bug', async(req, res) => {
-//     try{
-//         const bugs = await bugService.query();
-//         res.send(bugs)
-//     }catch (err){
-//         localStorage.errer('Cannot get bugs', err)
-//         res.status(400).send('Cannot get bugs')
-//     }
-// })
-
 app.get('/api/bug', async(req, res) => {
-    const { txt, minSeverity, labels, pageIdx } = req.query
+    const { txt, minSeverity, labels, pageIdx, sortBy, sortDir } = req.query
     const filterBy = {
         txt,
         minSeverity: minSeverity ? +minSeverity : 0,
-        labels: labels ? labels.split(',') : []
+        labels: labels ? labels.split(',') : [],
+        sortBy: sortBy || 'createdAt',
+        sortDir: sortDir ? +sortDir : -1
     }
 
-    if (pageIdx) filterBy.pageIdx = +pageIdx
+    if (pageIdx !== undefined) filterBy.pageIdx = +pageIdx
 
     console.log('filterBy:', filterBy)
     try{
