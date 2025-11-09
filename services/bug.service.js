@@ -34,8 +34,8 @@ async function query(filterBy) {
         }
 
         if(filterBy.labels && filterBy.labels.length){
-            bugsToDisplay = bugsToDisplay.filter(bug => 
-                filterBy.labels.every(label => bug.labels.includes(label))
+            bugsToDisplay = bugsToDisplay.filter(bug =>
+                bug.labels && filterBy.labels.every(label => bug.labels.includes(label))
             )
         }
 
