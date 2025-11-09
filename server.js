@@ -42,12 +42,15 @@ app.set('query parser', 'extended')
 // })
 
 app.get('/api/bug', async(req, res) => {
-    const { txt, minSeverity, labels } = req.query
+    const { txt, minSeverity, labels, pageIdx } = req.query
     const filterBy = {
         txt,
         minSeverity: minSeverity ? +minSeverity : 0,
         labels: labels ? labels.split(',') : []
     }
+
+    if (pageIdx) filterBy.pageIdx = +pageIdx
+
     console.log('filterBy:', filterBy)
     try{
         const bugs = await bugService.query(filterBy);

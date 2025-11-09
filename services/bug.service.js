@@ -10,6 +10,7 @@ export const bugService = {
 }
 
 const bugs = readJsonFile('./data/bugs.json')
+const PAGE_SIZE = 3
 
 // async function query() {
 //     try{
@@ -37,6 +38,11 @@ async function query(filterBy) {
             bugsToDisplay = bugsToDisplay.filter(bug =>
                 bug.labels && filterBy.labels.every(label => bug.labels.includes(label))
             )
+        }
+
+        if('pageIdx' in filterBy) {
+            const startIdx = filterBy.pageIdx * PAGE_SIZE 
+            bugsToDisplay = bugsToDisplay.slice(startIdx, startIdx + PAGE_SIZE)       
         }
 
         return bugsToDisplay
