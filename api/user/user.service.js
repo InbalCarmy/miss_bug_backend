@@ -6,62 +6,49 @@ export const userService = {
     query,
     getById,
     remove,
-    save
+    save,
+    getByUsername
 }
 
 const users = readJsonFile('./data/users.json')
-const PAGE_SIZE = 3
 
 async function query() {
-    let usersToDisplay = users
+    return users
+}
+
+async function getById(userId) {
     try{
-        // if(filterBy.txt){
-        //     const regExp = new RegExp(filterBy.txt, 'i')
-        //     // usersToDisplay = usersToDisplay.filter(user => regExp.test(user.title) || regExp.test(user.description))
-        //     usersToDisplay = usersToDisplay.filter(user => regExp.test(user.title))
-
-        // }
-
-        // if(filterBy.minSeverity){
-        //     usersToDisplay = usersToDisplay.filter(user => user.severity >= filterBy.minSeverity)
-        // }
-
-        // if(filterBy.labels && filterBy.labels.length){
-        //     usersToDisplay = usersToDisplay.filter(user =>
-        //         user.labels && filterBy.labels.every(label => user.labels.includes(label))
-        //     )
-        // }
-
-        // // Sorting
-        // if(filterBy.sortBy){
-        //     usersToDisplay.sort((a, b) => {
-        //         let aVal = a[filterBy.sortBy]
-        //         let bVal = b[filterBy.sortBy]
-
-        //         // Handle string vs number comparison
-        //         if(typeof aVal === 'string') {
-        //             aVal = aVal.toLowerCase()
-        //             bVal = bVal.toLowerCase()
-        //         }
-
-        //         // sortDir: 1 = ascending, -1 = descending
-        //         if(aVal > bVal) return 1 * filterBy.sortDir
-        //         if(aVal < bVal) return -1 * filterBy.sortDir
-        //         return 0
-        //     })
-        // }
-
-        // if('pageIdx' in filterBy) {
-        //     const startIdx = filterBy.pageIdx * PAGE_SIZE
-        //     usersToDisplay = usersToDisplay.slice(startIdx, startIdx + PAGE_SIZE)
-        // }
-
-        return usersToDisplay
-    }  catch (err){
-        loggerService.error('Cannot filter users', err) 
+        const user = users.find(user => user._id === userId)
+        if(!user) throw `User not found by userId : ${userId}`
+        return user
+    }catch (err){
+        loggerService.error('userService[getById] : ', err)
         throw err
     }
 }
+
+async function getByUsername(username) {
+    try{
+        const user = users.find(user => user.username === username)
+        return user
+    }catch (err){
+      loggerService.error('userService[getByUsername] : ', err)
+        throw err
+    }
+}
+
+async function remove(userId) {
+    try{
+        const userIdx = users.findIndex(user => user._id === userId)
+        if(userIdx === -1) throw `Could not find user by userId: ${userId}`
+        users.splice(userIdx, 1)
+        await _saveUsersToFile()
+    }catch (err){
+        loggerService.error('userService[remove] : ', err)
+        throw err
+    } 
+}
+
 
 async function save(userToSave){
     try{
@@ -78,31 +65,10 @@ async function save(userToSave){
         return userToSave
 
     }catch (err){
+        loggerService.error('userService[save] : ', err)
         throw err
     }
 }
-
-async function getById(userId) {
-    try{
-        const user = users.find(user => user._id === userId)
-        if(!user) throw new Error ('User not found')
-        return user
-    }catch (err){
-        throw err
-    }
-}
-
-async function remove(userId) {
-    try{
-        const userIdx = users.findIndex(user => user._id === userId)
-        if(userIdx < 0) throw new Error ('User not found')
-        users.splice(userIdx, 1)
-        await _saveUsersToFile()
-    }catch (err){
-        throw err
-    } 
-}
-
 
 
 

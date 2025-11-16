@@ -8,6 +8,6 @@ router.get('/', getUsers)
 router.get('/:userId', getUser)
 router.delete('/:userId', removeUser)
 router.put('/:userId', updateUser)
-router.post('/', addUser)
+// router.post('/', addUser)
 
 export const userRoutes = router

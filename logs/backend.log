@@ -42,3 +42,69 @@
 11.11.2025, 14:07:37 - INFO - Server listening on port http://localhost:3030/
 11.11.2025, 14:08:42 - INFO - Server listening on port http://localhost:3030/
 16.11.2025, 10:58:09 - INFO - Server listening on port http://localhost:3030/
+16.11.2025, 11:40:34 - INFO - Server listening on port http://localhost:3030/
+16.11.2025, 11:42:35 - INFO - Server listening on port http://localhost:3030/
+16.11.2025, 11:42:38 - INFO - Server listening on port http://localhost:3030/
+16.11.2025, 11:42:40 - INFO - Server listening on port http://localhost:3030/
+16.11.2025, 11:42:41 - INFO - Server listening on port http://localhost:3030/
+16.11.2025, 11:46:52 - INFO - Server listening on port http://localhost:3030/
+16.11.2025, 11:46:56 - INFO - Server listening on port http://localhost:3030/
+16.11.2025, 11:46:59 - INFO - Server listening on port http://localhost:3030/
+16.11.2025, 11:47:16 - INFO - Server listening on port http://localhost:3030/
+16.11.2025, 11:47:33 - INFO - Server listening on port http://localhost:3030/
+16.11.2025, 11:47:35 - INFO - Server listening on port http://localhost:3030/
+16.11.2025, 11:47:51 - INFO - Server listening on port http://localhost:3030/
+16.11.2025, 11:47:55 - INFO - Server listening on port http://localhost:3030/
+16.11.2025, 11:47:58 - INFO - Server listening on port http://localhost:3030/
+16.11.2025, 11:48:00 - INFO - Server listening on port http://localhost:3030/
+16.11.2025, 11:48:04 - INFO - Server listening on port http://localhost:3030/
+16.11.2025, 11:48:26 - INFO - Server listening on port http://localhost:3030/
+16.11.2025, 11:48:27 - INFO - Server listening on port http://localhost:3030/
+16.11.2025, 11:48:28 - INFO - Server listening on port http://localhost:3030/
+16.11.2025, 11:49:32 - INFO - Server listening on port http://localhost:3030/
+16.11.2025, 11:49:34 - INFO - Server listening on port http://localhost:3030/
+16.11.2025, 12:11:59 - INFO - Server listening on port http://localhost:3030/
+16.11.2025, 12:12:37 - INFO - Server listening on port http://localhost:3030/
+16.11.2025, 12:12:41 - INFO - Server listening on port http://localhost:3030/
+16.11.2025, 12:12:44 - INFO - Server listening on port http://localhost:3030/
+16.11.2025, 12:12:59 - INFO - Server listening on port http://localhost:3030/
+16.11.2025, 12:13:01 - INFO - Server listening on port http://localhost:3030/
+16.11.2025, 12:17:11 - INFO - Server listening on port http://localhost:3030/
+16.11.2025, 12:17:20 - INFO - Server listening on port http://localhost:3030/
+16.11.2025, 12:17:24 - INFO - Server listening on port http://localhost:3030/
+16.11.2025, 12:17:38 - INFO - Server listening on port http://localhost:3030/
+16.11.2025, 12:18:21 - INFO - Server listening on port http://localhost:3030/
+16.11.2025, 12:21:03 - INFO - Server listening on port http://localhost:3030/
+16.11.2025, 12:30:05 - INFO - Server listening on port http://localhost:3030/
+16.11.2025, 12:37:42 - INFO - Server listening on port http://localhost:3030/
+16.11.2025, 13:24:03 - INFO - Server listening on port http://localhost:3030/
+16.11.2025, 13:24:38 - INFO - Server listening on port http://localhost:3030/
+16.11.2025, 13:24:40 - INFO - Server listening on port http://localhost:3030/
+16.11.2025, 13:25:10 - INFO - Server listening on port http://localhost:3030/
+16.11.2025, 13:25:34 - INFO - Server listening on port http://localhost:3030/
+16.11.2025, 13:26:02 - ERROR - Failed to Login NaN
+16.11.2025, 13:28:31 - INFO - Server listening on port http://localhost:3030/
+16.11.2025, 13:28:32 - INFO - Server listening on port http://localhost:3030/
+16.11.2025, 13:28:44 - INFO - User login:  | {"_id":"u101","fullname":"Muki Ja"}
+16.11.2025, 13:30:53 - DEBUG - auth.service - signup with username: matan, fullname: Matan Agazan
+16.11.2025, 13:30:53 - DEBUG - auth.route - new account created: {"username":"matan","password":"$2b$10$VGHDLzUMf8o8irrI6Naane1TQ4/.O89KpDR9Qnj7pekboicInG0bG","fullname":"Matan Agazan","_id":"r2uLrZ","createdAt":1763292653664}
+16.11.2025, 13:30:53 - INFO - User signup: | {"_id":"r2uLrZ","fullname":"Matan Agazan"}
+16.11.2025, 13:31:28 - INFO - User login:  | {"_id":"r2uLrZ","fullname":"Matan Agazan"}
+16.11.2025, 13:32:45 - DEBUG - auth.service - signup with username: muki, fullname: undefined
+16.11.2025, 13:32:45 - ERROR - Failed to signup Missing required signup information
+16.11.2025, 13:33:04 - INFO - User login:  | {"_id":"u101","fullname":"Muki Ja"}
+16.11.2025, 13:34:24 - DEBUG - auth.service - signup with username: matan, fullname: Matan Agazan
+16.11.2025, 13:34:24 - ERROR - Failed to signup Username already taken
+16.11.2025, 13:34:34 - INFO - User login:  | {"_id":"u101","fullname":"Muki Ja"}
+16.11.2025, 13:34:44 - INFO - Server listening on port http://localhost:3030/
+16.11.2025, 13:34:49 - DEBUG - auth.service - signup with username: matan, fullname: Matan Agazan
+16.11.2025, 13:34:49 - DEBUG - auth.route - new account created: {"username":"matan","password":"$2b$10$QR0TZvTVeCW6n5fK6.rbd.CiX0PGG5eIBaN/cX2zamxV9OTuFIYSu","fullname":"Matan Agazan","_id":"Tdz7dy","createdAt":1763292889190}
+16.11.2025, 13:34:49 - INFO - User signup: | {"_id":"Tdz7dy","fullname":"Matan Agazan"}
+16.11.2025, 13:51:21 - INFO - Server listening on port http://localhost:3030/
+16.11.2025, 13:51:25 - INFO - Server listening on port http://localhost:3030/
+16.11.2025, 13:51:33 - INFO - Server listening on port http://localhost:3030/
+16.11.2025, 13:51:36 - INFO - Server listening on port http://localhost:3030/
+16.11.2025, 13:51:39 - INFO - Server listening on port http://localhost:3030/
+16.11.2025, 13:51:41 - INFO - Server listening on port http://localhost:3030/
+16.11.2025, 13:51:43 - INFO - Server listening on port http://localhost:3030/
+16.11.2025, 13:51:48 - INFO - Server listening on port http://localhost:3030/

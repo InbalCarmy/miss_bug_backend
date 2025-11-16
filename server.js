@@ -1,11 +1,10 @@
+import { loggerService } from './services/logger.service.js'
+
 import express from 'express';
 import cors from 'cors'
 import path from 'path'
-
 import cookieParser from 'cookie-parser'
-import { bugRoutes } from './api/bug/bug.routes.js';
-import { userRoutes } from './api/user/user.routes.js';
-import { loggerService } from './services/logger.service.js'
+
 
 const app = express();
 
@@ -21,15 +20,23 @@ const corsOptions = {
     credentials: true
 }
 
+// App configuration
 app.use(cors(corsOptions))
 app.use(cookieParser())
 app.use(express.static('public'))
 app.use(express.json())
 app.set('query parser', 'extended')
 
+//Routes
+import { bugRoutes } from './api/bug/bug.routes.js';
+import { userRoutes } from './api/user/user.routes.js';
+import { authRoutes } from './api/auth/auth.routes.js'
+
 
 app.use('/api/bug', bugRoutes);
 app.use('/api/user', userRoutes);
+app.use('/api/auth', authRoutes)
+
 
 //* For SPA (Single Page Application) - catch all routes and send to the index.html
 app.get('/*all', (req, res) => {

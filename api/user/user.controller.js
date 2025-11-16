@@ -2,19 +2,10 @@ import { userService } from './user.service.js';
 import { loggerService } from '../../services/logger.service.js';
 
 export async function getUsers(req, res){
-    // const { txt, minSeverity, labels, pageIdx, sortBy, sortDir } = req.query
-    // const filterBy = {
-    //     txt,
-    //     minSeverity: minSeverity ? +minSeverity : 0,
-    //     labels: labels ? labels.split(',') : [],
-    //     sortBy: sortBy || 'createdAt',
-    //     sortDir: sortDir ? +sortDir : -1
-    // }
-
-    // if (pageIdx !== undefined) filterBy.pageIdx = +pageIdx
-
-    // console.log('filterBy:', filterBy)
     try{
+        const filterBy = {
+            txt: req.query.txt || '',
+        }
         const users = await userService.query();
         res.send(users)
     } catch (err){
@@ -26,20 +17,6 @@ export async function getUsers(req, res){
 
 export async function getUser(req, res){
     const { userId } = req.params
-    // if (req.cookies.visitedUsers) {
-    //     var visitedUsers = JSON.parse(req.cookies.visitedUsers)
-    // } else {
-    //     var visitedUsers = []
-    // }
-
-    // if (!visitedUsers.includes(userId)) {
-    //     if (visitedUsers.length < 3) visitedUsers.push(userId)
-    //     else return res.status(401).send('wait for while...')
-    // }
-
-    // res.cookie('visitedUsers', JSON.stringify(visitedUsers), { maxAge: 10000 })
-    // console.log(visitedUsers)
-
     try {
         const user = await userService.getById(userId)
         res.send(user)

@@ -10,8 +10,7 @@
         "_id": "u102",
         "fullname": "Dana Levi",
         "username": "dana",
-        "password": "dana1234",
-        "score": 85
+        "password": "dana1234"
     },
     {
         "_id": "u103",
@@ -68,13 +67,5 @@
         "username": "shani",
         "password": "shani1234",
         "score": 91
-    },
-    {
-        "_id": "eiId3D",
-        "fullname": "Inbal Carmy",
-        "username": "inbal",
-        "password": "inbal1234",
-        "score": 100,
-        "createdAt": 1762863555054
     }
 ]

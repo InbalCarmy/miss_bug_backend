@@ -4,14 +4,16 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-        "start": "nodemon --ignore \"./data\" server.js"
+    "start": "nodemon --ignore \"./data\" server.js"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "bcrypt": "^6.0.0",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
+    "cryptr": "^6.4.0",
     "express": "^5.1.0"
   },
   "devDependencies": {
