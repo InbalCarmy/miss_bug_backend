@@ -36,7 +36,7 @@ app.use('/api/auth', authRoutes)
 
 
 //* For SPA (Single Page Application) - catch all routes and send to the index.html
-app.get('/*', (req, res) => {
+app.get('*', (req, res) => {
     res.sendFile(path.resolve('public/index.html'))
 })
 
