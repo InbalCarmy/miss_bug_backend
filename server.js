@@ -9,10 +9,6 @@ import cookieParser from 'cookie-parser'
 
 const app = express();
 
-app.get('/', (req, res) => {
-    res.send('Hello World!');
-});
-
 const corsOptions = {
     origin: [
         'http://127.0.0.1:5173',
@@ -40,7 +36,7 @@ app.use('/api/auth', authRoutes)
 
 
 //* For SPA (Single Page Application) - catch all routes and send to the index.html
-app.get('/*all', (req, res) => {
+app.get('/*', (req, res) => {
     res.sendFile(path.resolve('public/index.html'))
 })
 
