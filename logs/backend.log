@@ -414,3 +414,4 @@
 18.11.2025, 13:53:22 - INFO - hitting/api/bug/?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
 18.11.2025, 13:54:41 - INFO - hitting/api/bug/?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
 18.11.2025, 13:54:58 - INFO - hitting/api/bug/?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+18.11.2025, 13:59:18 - INFO - Server listening on port http://localhost:3030/
