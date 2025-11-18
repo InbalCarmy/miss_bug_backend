@@ -43,7 +43,8 @@ app.get('/*all', (req, res) => {
     res.sendFile(path.resolve('public/index.html'))
 })
 
-const port = 3030
-app.listen(port, () =>
-    loggerService.info(`Server listening on port http://localhost:${port}/`)
+console.log(process.env.PORT)
+const PORT = process.env.PORT || 3030
+app.listen(PORT, () =>
+    loggerService.info(`Server listening on port http://localhost:${PORT}/`)
 )

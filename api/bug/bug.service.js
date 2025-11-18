@@ -63,15 +63,20 @@ async function query(filterBy) {
     }
 }
 
-async function save(bugToSave){
+async function save(bugToSave, loggedinUser){
     try{
         if(bugToSave._id){
-            const bugId = bugs.findIndex(bug => bug._id ===bugToSave._id)
-            if(bugId < 0) throw new Error ('Bug not found')
-            bugs[bugId] = bugToSave
+            const bugIdx = bugs.findIndex(bug => bug._id ===bugToSave._id)
+            if(bugIdx === -1) throw new Error ('Bug not found')
+                
+            if(!loggedinUser.isAdmin && bugs[bugIdx].creator._id !== loggedinUser._id) throw 'Not your bug'
+
+            // bugs[bugIdx] = bugToSave
+            bugs.splice(bugIdx, 1, {...bugs[bugIdx], ...bugToSave })
         }else{
             bugToSave._id = makeId()
             bugToSave.createdAt = Date.now()
+            bugToSave.creator = loggedinUser
             bugs.push(bugToSave)
         }
         await _saveBugsToFile()
@@ -92,10 +97,12 @@ async function getById(bugId) {
     }
 }
 
-async function remove(bugId) {
+async function remove(bugId, loggedinUser) {
     try{
         const bugIdx = bugs.findIndex(bug => bug._id === bugId)
         if(bugIdx < 0) throw new Error ('Bug not found')
+        if(!loggedinUser.isAdmin && bugs[bugIdx].creator._id !== loggedinUser._id) throw 'Not your bug'
+
         bugs.splice(bugIdx, 1)
         await _saveBugsToFile()
     }catch (err){

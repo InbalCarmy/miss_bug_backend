@@ -1,72 +1,86 @@
 [
-  {
-    "_id": "u101",
-    "fullname": "Muki Ja",
-    "username": "muki",
-    "password": "muki1234",
-    "score": 100
-  },
-  {
-    "_id": "u102",
-    "fullname": "Dana Levi",
-    "username": "dana",
-    "password": "dana1234",
-    "score": 85
-  },
-  {
-    "_id": "u103",
-    "fullname": "Roni Cohen",
-    "username": "roni",
-    "password": "roni1234",
-    "score": 92
-  },
-  {
-    "_id": "u104",
-    "fullname": "Amit Bar",
-    "username": "amit",
-    "password": "amit1234",
-    "score": 76
-  },
-  {
-    "_id": "u105",
-    "fullname": "Eden Mor",
-    "username": "eden",
-    "password": "eden1234",
-    "score": 98
-  },
-  {
-    "_id": "u106",
-    "fullname": "Noa Tal",
-    "username": "noa",
-    "password": "noa1234",
-    "score": 88
-  },
-  {
-    "_id": "u107",
-    "fullname": "Ben Azulay",
-    "username": "ben",
-    "password": "ben1234",
-    "score": 95
-  },
-  {
-    "_id": "u108",
-    "fullname": "Tomer Shai",
-    "username": "tomer",
-    "password": "tomer1234",
-    "score": 73
-  },
-  {
-    "_id": "u109",
-    "fullname": "Lior Peleg",
-    "username": "lior",
-    "password": "lior1234",
-    "score": 82
-  },
-  {
-    "_id": "u110",
-    "fullname": "Shani Refael",
-    "username": "shani",
-    "password": "shani1234",
-    "score": 91
-  }
+    {
+        "_id": "u101",
+        "fullname": "Muki Ja",
+        "username": "muki",
+        "password": "muki1234",
+        "score": 100,
+        "isAdmin": true
+    },
+    {
+        "_id": "u102",
+        "fullname": "Dana Levi",
+        "username": "dana",
+        "password": "dana1234",
+        "score": 85,
+        "isAdmin": false
+    },
+    {
+        "_id": "u103",
+        "fullname": "Roni Cohen",
+        "username": "roni",
+        "password": "roni1234",
+        "score": 92,
+        "isAdmin": false
+
+    },
+    {
+        "_id": "u104",
+        "fullname": "Amit Bar",
+        "username": "amit",
+        "password": "amit1234",
+        "score": 76,
+        "isAdmin": false
+
+    },
+    {
+        "_id": "u105",
+        "fullname": "Eden Mor",
+        "username": "eden",
+        "password": "eden1234",
+        "score": 98,
+        "isAdmin": false
+    },
+    {
+        "_id": "u106",
+        "fullname": "Noa Tal",
+        "username": "noa",
+        "password": "noa1234",
+        "score": 88,
+        "isAdmin": false
+    },
+    {
+        "_id": "u107",
+        "fullname": "Ben Azulay",
+        "username": "ben",
+        "password": "ben1234",
+        "score": 95,
+        "isAdmin": false
+    },
+    {
+        "_id": "u108",
+        "fullname": "Tomer Shai",
+        "username": "tomer",
+        "password": "tomer1234",
+        "score": 73,
+        "isAdmin": false
+
+    },
+    {
+        "_id": "u109",
+        "fullname": "Lior Peleg",
+        "username": "lior",
+        "password": "lior1234",
+        "score": 82,
+        "isAdmin": false
+
+    },
+    {
+        "_id": "u110",
+        "fullname": "Shani Refael",
+        "username": "shani",
+        "password": "shani1234",
+        "score": 91,
+        "isAdmin": false
+    }
 ]

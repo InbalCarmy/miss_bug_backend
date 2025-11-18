@@ -1,5 +1,6 @@
 import { bugService } from './bug.service.js';
 import { loggerService } from '../../services/logger.service.js';
+import { authService } from '../auth/auth.service.js';
 
 export async function getBugs(req, res){
     const { txt, minSeverity, labels, pageIdx, sortBy, sortDir } = req.query
@@ -13,7 +14,6 @@ export async function getBugs(req, res){
 
     if (pageIdx !== undefined) filterBy.pageIdx = +pageIdx
 
-    console.log('filterBy:', filterBy)
     try{
         const bugs = await bugService.query(filterBy);
         res.send(bugs)
@@ -51,8 +51,10 @@ export async function getBug(req, res){
 
 export async function removeBug(req, res){
     const { bugId } = req.params
-    try{
-        await bugService.remove(bugId);
+    const loggedinUser = req.loggedinUser
+
+    try{    
+        await bugService.remove(bugId, loggedinUser);
         res.send('Bug removed')       
     }catch (err) {
         loggerService.error(`Cannot remove bug ${bugId}`, err)
@@ -61,10 +63,11 @@ export async function removeBug(req, res){
 }
 
 export async function updateBug(req, res){
-    const { _id, title, severity, description, labels } = req.body
-    const bugToSave = { _id, title, severity, description, labels }
+    const { _id, title, severity, description, labels, creator } = req.body
+    const bugToSave = { _id, title, severity, description, labels, creator }
+    const loggedinUser = req.loggedinUser
     try{
-        const savedBug = await bugService.save(bugToSave);
+        const savedBug = await bugService.save(bugToSave, loggedinUser);
         res.send(savedBug)
     }catch (err) {
         loggerService.error('Cannot save bug', err)
@@ -75,8 +78,9 @@ export async function updateBug(req, res){
 export async function addBug(req, res){
     const { _id, title, severity, description, labels } = req.body
     const bugToSave = { _id, title, severity, description, labels }
+    const loggedinUser = req.loggedinUser
     try{
-        const savedBug = await bugService.save(bugToSave);
+        const savedBug = await bugService.save(bugToSave, loggedinUser);
         res.send(savedBug)
     }catch (err) {
         loggerService.error('Cannot save bug', err)
