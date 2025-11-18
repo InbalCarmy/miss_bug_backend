@@ -1,5 +1,6 @@
 import { loggerService } from "../../services/logger.service.js"
 import { readJsonFile, writeJsonFile, makeId } from "../../services/utils.js"
+import { bugService } from "../bug/bug.service.js"
 
 
 export const userService = {
@@ -41,12 +42,19 @@ async function remove(userId) {
     try{
         const userIdx = users.findIndex(user => user._id === userId)
         if(userIdx === -1) throw `Could not find user by userId: ${userId}`
+
+        // Check if user has bugs
+        const userBugs = await bugService.query({ createdBy: userId })
+        if(userBugs.length > 0) {
+            throw `Cannot delete user - user has ${userBugs.length} bug(s)`
+        }
+
         users.splice(userIdx, 1)
         await _saveUsersToFile()
     }catch (err){
         loggerService.error('userService[remove] : ', err)
         throw err
-    } 
+    }
 }
 
 

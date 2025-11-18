@@ -3,13 +3,14 @@ import { loggerService } from '../../services/logger.service.js';
 import { authService } from '../auth/auth.service.js';
 
 export async function getBugs(req, res){
-    const { txt, minSeverity, labels, pageIdx, sortBy, sortDir } = req.query
+    const { txt, minSeverity, labels, pageIdx, sortBy, sortDir, createdBy } = req.query
     const filterBy = {
         txt,
         minSeverity: minSeverity ? +minSeverity : 0,
         labels: labels ? labels.split(',') : [],
         sortBy: sortBy || 'createdAt',
-        sortDir: sortDir ? +sortDir : -1
+        sortDir: sortDir ? +sortDir : -1,
+        createdBy
     }
 
     if (pageIdx !== undefined) filterBy.pageIdx = +pageIdx

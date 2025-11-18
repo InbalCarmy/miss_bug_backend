@@ -21,17 +21,18 @@ async function query(filterBy) {
             bugsToDisplay = bugsToDisplay.filter(bug => regExp.test(bug.title))
 
         }
-
         if(filterBy.minSeverity){
             bugsToDisplay = bugsToDisplay.filter(bug => bug.severity >= filterBy.minSeverity)
         }
-
         if(filterBy.labels && filterBy.labels.length){
             bugsToDisplay = bugsToDisplay.filter(bug =>
                 bug.labels && filterBy.labels.every(label => bug.labels.includes(label))
             )
         }
 
+        if(filterBy.createdBy){
+            bugsToDisplay = bugsToDisplay.filter(bug => bug.creator._id === filterBy.createdBy)
+        }
         // Sorting
         if(filterBy.sortBy){
             bugsToDisplay.sort((a, b) => {

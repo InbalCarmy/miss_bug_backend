@@ -308,3 +308,81 @@
 16.11.2025, 17:04:18 - INFO - hitting/api/bug/?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
 16.11.2025, 17:04:19 - INFO - hitting/api/bug/?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
 18.11.2025, 12:05:31 - INFO - Server listening on port http://localhost:3030/
+18.11.2025, 12:14:45 - INFO - Server listening on port http://localhost:3030/
+18.11.2025, 12:14:48 - INFO - Server listening on port http://localhost:3030/
+18.11.2025, 12:15:08 - INFO - Server listening on port http://localhost:3030/
+18.11.2025, 12:15:12 - INFO - Server listening on port http://localhost:3030/
+18.11.2025, 12:15:29 - INFO - Server listening on port http://localhost:3030/
+18.11.2025, 12:16:15 - INFO - Server listening on port http://localhost:3030/
+18.11.2025, 12:16:18 - INFO - Server listening on port http://localhost:3030/
+18.11.2025, 12:16:21 - INFO - Server listening on port http://localhost:3030/
+18.11.2025, 12:16:23 - INFO - Server listening on port http://localhost:3030/
+18.11.2025, 12:16:27 - INFO - Server listening on port http://localhost:3030/
+18.11.2025, 12:17:53 - INFO - hitting/api/bug/?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+18.11.2025, 12:17:53 - INFO - hitting/api/bug/?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+18.11.2025, 12:17:55 - INFO - hitting/api/bug/?txt=&minSeverity=0&pageIdx=1&sortBy=&sortDir=1
+18.11.2025, 12:17:57 - INFO - hitting/api/bug/?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+18.11.2025, 12:18:20 - INFO - hitting/api/bug/?txt=&minSeverity=0&pageIdx=1&sortBy=&sortDir=1
+18.11.2025, 12:18:20 - INFO - hitting/api/bug/?txt=&minSeverity=0&pageIdx=2&sortBy=&sortDir=1
+18.11.2025, 12:18:22 - INFO - hitting/api/bug/?txt=&minSeverity=0&pageIdx=1&sortBy=&sortDir=1
+18.11.2025, 12:18:30 - INFO - User login:  | {"_id":"u103","fullname":"Roni Cohen","isAdmin":false}
+18.11.2025, 12:18:32 - INFO - hitting/api/bug/?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+18.11.2025, 12:18:32 - INFO - hitting/api/bug/?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+18.11.2025, 12:18:33 - INFO - hitting/api/bug/?txt=&minSeverity=0&pageIdx=1&sortBy=&sortDir=1
+18.11.2025, 12:18:34 - INFO - hitting/api/bug/?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+18.11.2025, 12:23:16 - INFO - Server listening on port http://localhost:3030/
+18.11.2025, 12:23:42 - INFO - hitting/api/bug/?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+18.11.2025, 12:23:42 - INFO - hitting/api/bug/?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+18.11.2025, 12:23:46 - INFO - hitting/api/bug/?creatorId=u103
+18.11.2025, 12:24:10 - INFO - hitting/api/bug/?creatorId=u103
+18.11.2025, 12:24:39 - INFO - hitting/api/bug/?creatorId=u103
+18.11.2025, 12:24:49 - INFO - hitting/api/bug/?creatorId=u103
+18.11.2025, 12:24:52 - INFO - hitting/api/bug/?creatorId=u103
+18.11.2025, 12:25:18 - INFO - hitting/api/bug/?creatorId=u103
+18.11.2025, 12:25:34 - INFO - hitting/api/bug/?creatorId=u103
+18.11.2025, 12:25:48 - INFO - hitting/api/bug/?creatorId=u103
+18.11.2025, 12:25:57 - INFO - hitting/api/bug/?creatorId=u103
+18.11.2025, 12:26:04 - INFO - hitting/api/bug/?creatorId=u103
+18.11.2025, 12:26:10 - INFO - hitting/api/bug/?creatorId=u103
+18.11.2025, 12:26:10 - INFO - hitting/api/bug/?creatorId=u103
+18.11.2025, 12:26:13 - INFO - hitting/api/bug/?creatorId=u103
+18.11.2025, 12:26:13 - INFO - hitting/api/bug/?creatorId=u103
+18.11.2025, 12:26:27 - INFO - hitting/api/bug/?creatorId=u103
+18.11.2025, 12:26:32 - INFO - hitting/api/bug/?creatorId=u103
+18.11.2025, 12:26:39 - INFO - hitting/api/bug/?creatorId=u103
+18.11.2025, 12:27:03 - INFO - hitting/api/bug/?creatorId=u103
+18.11.2025, 12:27:08 - INFO - hitting/api/bug/?creatorId=u103
+18.11.2025, 12:27:31 - INFO - hitting/api/bug/?creatorId=u103
+18.11.2025, 12:29:18 - INFO - hitting/api/bug/?creatorId%5B_id%5D=u103&creatorId%5Bfullname%5D=Roni+Cohen&creatorId%5Busername%5D=roni&creatorId%5Bpassword%5D=roni1234&creatorId%5Bscore%5D=92&creatorId%5BisAdmin%5D=false
+18.11.2025, 12:29:19 - INFO - hitting/api/bug/?creatorId=u103
+18.11.2025, 12:29:45 - INFO - hitting/api/bug/?creat=u103
+18.11.2025, 12:29:47 - INFO - hitting/api/bug/?createdBy=u103
+18.11.2025, 12:30:12 - INFO - hitting/api/bug/?createdBy=u103
+18.11.2025, 12:30:16 - INFO - hitting/api/bug/a1b2c3
+18.11.2025, 12:30:17 - INFO - hitting/api/bug/?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+18.11.2025, 12:30:17 - INFO - hitting/api/bug/?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+18.11.2025, 12:30:19 - INFO - hitting/api/bug/?txt=&minSeverity=0&pageIdx=1&sortBy=&sortDir=1
+18.11.2025, 12:30:22 - INFO - hitting/api/bug/?createdBy=u103
+18.11.2025, 12:30:32 - INFO - User login:  | {"_id":"u101","fullname":"Muki Ja","isAdmin":true}
+18.11.2025, 12:30:34 - INFO - hitting/api/bug/?createdBy=u101
+18.11.2025, 12:31:23 - INFO - hitting/api/bug/?createdBy=u101
+18.11.2025, 12:35:06 - INFO - hitting/api/bug/?createdBy=u101
+18.11.2025, 12:35:10 - INFO - hitting/api/bug/?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+18.11.2025, 12:35:11 - INFO - hitting/api/bug/?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+18.11.2025, 12:36:17 - INFO - Server listening on port http://localhost:3030/
+18.11.2025, 12:36:52 - INFO - Server listening on port http://localhost:3030/
+18.11.2025, 12:38:04 - ERROR - userService[remove] :  | Cannot delete user - user has 1 bug(s)
+18.11.2025, 12:38:04 - ERROR - Cannot remove user u101 | Cannot delete user - user has 1 bug(s)
+18.11.2025, 12:38:18 - ERROR - userService[remove] :  | Cannot delete user - user has 1 bug(s)
+18.11.2025, 12:38:18 - ERROR - Cannot remove user u110 | Cannot delete user - user has 1 bug(s)
+18.11.2025, 12:40:19 - INFO - hitting/api/bug/?createdBy=u101
+18.11.2025, 12:44:12 - INFO - hitting/api/bug/?createdBy=u101
+18.11.2025, 12:50:50 - INFO - hitting/api/bug/?createdBy=u101
+18.11.2025, 12:50:51 - INFO - hitting/api/bug/?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+18.11.2025, 12:50:51 - INFO - hitting/api/bug/?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+18.11.2025, 12:50:53 - INFO - hitting/api/bug/?createdBy=u101
+18.11.2025, 12:50:57 - INFO - hitting/api/bug/
+18.11.2025, 12:50:59 - INFO - hitting/api/bug/?createdBy=u101
+18.11.2025, 12:51:02 - INFO - hitting/api/bug/?createdBy=u101
+18.11.2025, 12:51:10 - INFO - hitting/api/bug/
+18.11.2025, 12:54:19 - INFO - hitting/api/bug/?createdBy=u101
