@@ -36,8 +36,12 @@ app.use('/api/auth', authRoutes)
 
 
 //* For SPA (Single Page Application) - catch all routes and send to the index.html
-app.get('/**', (req, res) => {
-    res.sendFile(path.resolve('public/index.html'))
+app.use((req, res, next) => {
+    if (!req.path.startsWith('/api')) {
+        res.sendFile(path.resolve('public/index.html'))
+    } else {
+        next()
+    }
 })
 
 console.log(process.env.PORT)
