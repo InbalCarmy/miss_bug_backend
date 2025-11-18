@@ -1,3 +1,4 @@
+import 'dotenv/config'
 import { loggerService } from './services/logger.service.js'
 
 import express from 'express';

@@ -386,3 +386,11 @@
 18.11.2025, 12:51:02 - INFO - hitting/api/bug/?createdBy=u101
 18.11.2025, 12:51:10 - INFO - hitting/api/bug/
 18.11.2025, 12:54:19 - INFO - hitting/api/bug/?createdBy=u101
+18.11.2025, 12:58:20 - INFO - Server listening on port http://localhost:3030/
+18.11.2025, 12:59:58 - INFO - Server listening on port http://localhost:3030/
+18.11.2025, 13:02:18 - INFO - Server listening on port http://localhost:3030/
+18.11.2025, 13:06:22 - INFO - Server listening on port http://localhost:3030/
+18.11.2025, 13:06:37 - INFO - Server listening on port http://localhost:3030/
+18.11.2025, 13:06:40 - INFO - Server listening on port http://localhost:3030/
+18.11.2025, 13:06:46 - INFO - hitting/api/bug/?createdBy=u101
+18.11.2025, 13:06:54 - INFO - User login:  | {"_id":"u104","fullname":"Amit Bar","isAdmin":false}
