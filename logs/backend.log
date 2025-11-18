@@ -394,3 +394,13 @@
 18.11.2025, 13:06:40 - INFO - Server listening on port http://localhost:3030/
 18.11.2025, 13:06:46 - INFO - hitting/api/bug/?createdBy=u101
 18.11.2025, 13:06:54 - INFO - User login:  | {"_id":"u104","fullname":"Amit Bar","isAdmin":false}
+18.11.2025, 13:19:19 - INFO - Server listening on port http://localhost:3030/
+18.11.2025, 13:19:24 - INFO - hitting/api/bug/?createdBy=u104
+18.11.2025, 13:19:28 - INFO - hitting/api/bug/?createdBy=u104
+18.11.2025, 13:19:29 - INFO - hitting/api/bug/?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+18.11.2025, 13:19:29 - INFO - hitting/api/bug/?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+18.11.2025, 13:19:36 - INFO - User login:  | {"_id":"u105","fullname":"Eden Mor","isAdmin":false}
+18.11.2025, 13:19:39 - INFO - hitting/api/bug/?createdBy=u105
+18.11.2025, 13:19:40 - INFO - hitting/api/bug/?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+18.11.2025, 13:19:40 - INFO - hitting/api/bug/?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+18.11.2025, 13:20:29 - INFO - Server listening on port http://localhost:3030/
