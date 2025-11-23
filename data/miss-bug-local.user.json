@@ -1,0 +1,100 @@
+[{
+  "_id": {
+    "$oid": "69230800db00cbc554546b36"
+  },
+  "fullname": "Muki Ja",
+  "username": "muki",
+  "password": "muki1234",
+  "score": 100,
+  "isAdmin": true
+},
+{
+  "_id": {
+    "$oid": "69230800db00cbc554546b37"
+  },
+  "fullname": "Dana Levi",
+  "username": "dana",
+  "password": "dana1234",
+  "score": 85,
+  "isAdmin": false
+},
+{
+  "_id": {
+    "$oid": "69230800db00cbc554546b38"
+  },
+  "fullname": "Roni Cohen",
+  "username": "roni",
+  "password": "roni1234",
+  "score": 92,
+  "isAdmin": false
+},
+{
+  "_id": {
+    "$oid": "69230800db00cbc554546b39"
+  },
+  "fullname": "Amit Bar",
+  "username": "amit",
+  "password": "amit1234",
+  "score": 76,
+  "isAdmin": false
+},
+{
+  "_id": {
+    "$oid": "69230800db00cbc554546b3a"
+  },
+  "fullname": "Eden Mor",
+  "username": "eden",
+  "password": "eden1234",
+  "score": 98,
+  "isAdmin": false
+},
+{
+  "_id": {
+    "$oid": "69230800db00cbc554546b3b"
+  },
+  "fullname": "Noa Tal",
+  "username": "noa",
+  "password": "noa1234",
+  "score": 88,
+  "isAdmin": false
+},
+{
+  "_id": {
+    "$oid": "69230800db00cbc554546b3c"
+  },
+  "fullname": "Ben Azulay",
+  "username": "ben",
+  "password": "ben1234",
+  "score": 95,
+  "isAdmin": false
+},
+{
+  "_id": {
+    "$oid": "69230800db00cbc554546b3d"
+  },
+  "fullname": "Tomer Shai",
+  "username": "tomer",
+  "password": "tomer1234",
+  "score": 73,
+  "isAdmin": false
+},
+{
+  "_id": {
+    "$oid": "69230800db00cbc554546b3e"
+  },
+  "fullname": "Lior Peleg",
+  "username": "lior",
+  "password": "lior1234",
+  "score": 82,
+  "isAdmin": false
+},
+{
+  "_id": {
+    "$oid": "692308a971c677e2688a1ed3"
+  },
+  "fullname": "Shani Refael",
+  "username": "shani",
+  "password": "shani1234",
+  "score": 91,
+  "isAdmin": false
+}]

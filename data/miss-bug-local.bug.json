@@ -1,0 +1,238 @@
+[{
+  "_id": {
+    "$oid": "6922f796b79fd88dbae3beae"
+  },
+  "title": "UI button not responding",
+  "description": "Click events on certain UI buttons are not being registered, likely due to missing event listeners or overlapping elements in the layout.",
+  "severity": 1,
+  "createdAt": 1644107359454,
+  "labels": [
+    "frontend",
+    "UI",
+    "event-listener"
+  ],
+  "creator": {
+    "fullname": "Eden Mor",
+    "_id": {
+      "$oid": "69230800db00cbc554546b3a"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6922f796b79fd88dbae3beb0"
+  },
+  "title": "User session expires too early",
+  "description": "Sessions are expiring before the intended duration, forcing users to reauthenticate frequently. May be related to token TTL misconfiguration.",
+  "severity": 4,
+  "createdAt": 1646107359454,
+  "labels": [
+    "auth",
+    "token",
+    "config"
+  ],
+  "creator": {
+    "fullname": "Ben Azulay",
+    "_id": {
+      "$oid": "69230800db00cbc554546b3c"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6922f888b79fd88dbae3beb4"
+  },
+  "title": "Database connection timeout",
+  "severity": 6,
+  "description": "The backend server fails to connect to the database within the expected time window, possibly caused by network latency or DB overload.",
+  "createdAt": 1644107359454,
+  "labels": [
+    "critical",
+    "database",
+    "network"
+  ],
+  "creator": {
+    "fullname": "Muki Ja",
+    "_id": {
+      "$oid": "69230800db00cbc554546b36"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "69230724b79fd88dbae3beb6"
+  },
+  "title": "Login button not responding",
+  "severity": 3,
+  "description": "Users cannot click the login button on mobile devices",
+  "labels": [
+    "critical",
+    "ui"
+  ],
+  "creator": {
+    "_id": {
+      "$oid": "69230800db00cbc554546b37"
+    },
+    "fullname": "Dana Levi"
+  }
+},
+{
+  "_id": {
+    "$oid": "69230724b79fd88dbae3beb7"
+  },
+  "title": "Memory leak in background service",
+  "severity": 2,
+  "description": "Memory usage increases over time when app runs in background",
+  "labels": [
+    "performance",
+    "backend"
+  ],
+  "creator": {
+    "_id": {
+      "$oid": "69230800db00cbc554546b36"
+    },
+    "fullname": "Muki Ja"
+  }
+},
+{
+  "_id": {
+    "$oid": "69230724b79fd88dbae3beb8"
+  },
+  "title": "Dark mode colors incorrect",
+  "severity": 1,
+  "description": "Some text is unreadable in dark mode",
+  "labels": [
+    "ui"
+  ],
+  "creator": {
+    "_id": {
+      "$oid": "69230800db00cbc554546b37"
+    },
+    "fullname": "Dana Levi"
+  }
+},
+{
+  "_id": {
+    "$oid": "69230724b79fd88dbae3beb9"
+  },
+  "title": "API timeout on large requests",
+  "severity": 3,
+  "description": "Requests with more than 100 items timeout",
+  "labels": [
+    "backend",
+    "critical"
+  ],
+  "creator": {
+    "_id": {
+      "$oid": "69230800db00cbc554546b38"
+    },
+    "fullname": "Roni Cohen"
+  }
+},
+{
+  "_id": {
+    "$oid": "69230724b79fd88dbae3beba"
+  },
+  "title": "Search filter not working",
+  "severity": 2,
+  "description": "Filter by date range returns wrong results",
+  "labels": [
+    "bug",
+    "frontend"
+  ],
+  "creator": {
+    "_id": {
+      "$oid": "69230800db00cbc554546b37"
+    },
+    "fullname": "Dana Levi"
+  }
+},
+{
+  "_id": {
+    "$oid": "69230782b79fd88dbae3bebb"
+  },
+  "title": "Login button not responding",
+  "severity": 3,
+  "description": "Users cannot click the login button on mobile devices",
+  "labels": [
+    "critical",
+    "ui"
+  ],
+  "creator": {
+    "_id": {
+      "$oid": "69230800db00cbc554546b37"
+    },
+    "fullname": "Dana Levi"
+  }
+},
+{
+  "_id": {
+    "$oid": "69230782b79fd88dbae3bebc"
+  },
+  "title": "Memory leak in background service",
+  "severity": 2,
+  "description": "Memory usage increases over time when app runs in background",
+  "labels": [
+    "performance",
+    "backend"
+  ],
+  "creator": {
+    "_id": {
+      "$oid": "69230800db00cbc554546b38"
+    },
+    "fullname": "Roni Cohen"
+  }
+},
+{
+  "_id": {
+    "$oid": "69230782b79fd88dbae3bebd"
+  },
+  "title": "Dark mode colors incorrect",
+  "severity": 1,
+  "description": "Some text is unreadable in dark mode",
+  "labels": [
+    "ui"
+  ],
+  "creator": {
+    "_id": {
+      "$oid": "69230800db00cbc554546b37"
+    },
+    "fullname": "Dana Levi"
+  }
+},
+{
+  "_id": {
+    "$oid": "69230782b79fd88dbae3bebe"
+  },
+  "title": "API timeout on large requests",
+  "severity": 3,
+  "description": "Requests with more than 100 items timeout",
+  "labels": [
+    "backend",
+    "critical"
+  ],
+  "creator": {
+    "_id": {
+      "$oid": "69230800db00cbc554546b38"
+    },
+    "fullname": "Roni Cohen"
+  }
+},
+{
+  "_id": {
+    "$oid": "69230782b79fd88dbae3bebf"
+  },
+  "title": "Search filter not working",
+  "severity": 2,
+  "description": "Filter by date range returns wrong results",
+  "labels": [
+    "bug",
+    "frontend"
+  ],
+  "creator": {
+    "_id": {
+      "$oid": "69230800db00cbc554546b37"
+    },
+    "fullname": "Dana Levi"
+  }
+}]

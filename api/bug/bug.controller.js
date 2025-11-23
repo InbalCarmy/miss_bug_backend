@@ -16,7 +16,7 @@ export async function getBugs(req, res){
 
     if (pageIdx !== undefined) filterBy.pageIdx = +pageIdx
 
-    try{
+    try{        
         const bugs = await bugService.query(filterBy);        
         res.send(bugs)
     } catch (err){

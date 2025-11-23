@@ -1,15 +1,3 @@
-// import { authService } from '../api/auth/auth.service.js'
-
-// export function requireAuth(req, res, next) {
-// 	const loginToken = req.cookies.loginToken
-// 	const loggedinUser = authService.validateToken(loginToken)
-
-// 	if (!loggedinUser) return res.status(401).send('Please login')
-//     req.loggedinUser = loggedinUser
-    
-//     next()
-// }
-
 import { config } from '../config/index.js'
 import { loggerService } from '../services/logger.service.js'
 import { asyncLocalStorage } from '../services/als.service.js'

@@ -899,3 +899,265 @@
 23.11.2025, 14:12:04 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
 23.11.2025, 14:12:04 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
 23.11.2025, 14:12:07 - INFO - hitting/api/bug?pageIdx=1&sortDir=1
+23.11.2025, 14:16:11 - INFO - hitting/api/bug?pageIdx=1&sortDir=1
+23.11.2025, 14:16:11 - INFO - hitting/api/bug?pageIdx=1&sortDir=1
+23.11.2025, 14:16:16 - INFO - hitting/api/bug?pageIdx=1&sortDir=1
+23.11.2025, 14:16:18 - INFO - hitting/api/bug?pageIdx=1&sortDir=1
+23.11.2025, 14:16:28 - INFO - hitting/api/bug?pageIdx=1&sortDir=1
+23.11.2025, 14:20:58 - INFO - hitting/api/bug?pageIdx=1&sortDir=1
+23.11.2025, 14:21:00 - INFO - hitting/api/bug?pageIdx=1&sortDir=1
+23.11.2025, 14:21:00 - INFO - hitting/api/bug?pageIdx=1&sortDir=1
+23.11.2025, 14:21:02 - INFO - hitting/api/bug?pageIdx=1&sortDir=1
+23.11.2025, 14:21:02 - INFO - hitting/api/bug?pageIdx=1&sortDir=1
+23.11.2025, 14:21:07 - INFO - hitting/api/bug?pageIdx=1&sortDir=1
+23.11.2025, 14:21:09 - INFO - hitting/api/bug?pageIdx=1&sortDir=1
+23.11.2025, 14:21:13 - INFO - hitting/api/bug?pageIdx=1&sortDir=1
+23.11.2025, 14:21:13 - INFO - hitting/api/bug?pageIdx=1&sortDir=1
+23.11.2025, 14:21:16 - INFO - hitting/api/bug?pageIdx=1&sortDir=1
+23.11.2025, 14:21:16 - INFO - hitting/api/bug?pageIdx=1&sortDir=1
+23.11.2025, 14:21:18 - INFO - hitting/api/bug?pageIdx=1&sortDir=1
+23.11.2025, 14:21:22 - INFO - hitting/api/bug?pageIdx=1&sortDir=1
+23.11.2025, 14:21:27 - INFO - hitting/api/bug?pageIdx=1&sortDir=1
+23.11.2025, 14:21:27 - INFO - hitting/api/bug?pageIdx=1&sortDir=1
+23.11.2025, 14:21:29 - INFO - hitting/api/bug?pageIdx=1&sortDir=1
+23.11.2025, 14:21:29 - INFO - hitting/api/bug?pageIdx=1&sortDir=1
+23.11.2025, 14:25:26 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 14:25:26 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 14:25:54 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 14:25:58 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 14:26:02 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 14:26:03 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 14:27:36 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 14:27:49 - INFO - hitting/api/bug/6922fbf4086b468aab76661f
+23.11.2025, 14:27:55 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 14:27:55 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 14:28:00 - INFO - hitting/api/bug?pageIdx=1&sortDir=1
+23.11.2025, 14:28:01 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 14:29:51 - INFO - User login:  | {"_id":"u105","fullname":"Eden Mor","isAdmin":false}
+23.11.2025, 14:29:53 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 14:29:54 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 14:29:57 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 14:29:57 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 14:30:00 - ERROR - Cannot remove bug 6922fbf4086b468aab76661f | Error: Not your bug or bug not found
+23.11.2025, 14:30:00 - ERROR - Cannot remove bug 6922fbf4086b468aab76661f | Error: Not your bug or bug not found
+23.11.2025, 14:30:19 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 14:30:20 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 14:30:45 - ERROR - Cannot remove bug 6922fbf4086b468aab76661f | Error: Not your bug or bug not found
+23.11.2025, 14:30:45 - ERROR - Cannot remove bug 6922fbf4086b468aab76661f | Error: Not your bug or bug not found
+23.11.2025, 14:37:51 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 14:37:51 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 14:38:01 - INFO - Server listening on port http://localhost:3030/
+23.11.2025, 14:38:08 - ERROR - cannot update bug 6922fbf4086b468aab76661f | Error: Not your bug or bug not found
+23.11.2025, 14:38:08 - ERROR - Cannot save bug | Error: Not your bug or bug not found
+23.11.2025, 14:39:57 - ERROR - Cannot remove bug 6922fbf4086b468aab76661f | Error: Not your bug or bug not found
+23.11.2025, 14:39:57 - ERROR - Cannot remove bug 6922fbf4086b468aab76661f | Error: Not your bug or bug not found
+23.11.2025, 14:40:04 - INFO - User login:  | {"_id":"u101","fullname":"Muki Ja","isAdmin":true}
+23.11.2025, 14:40:06 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 14:40:06 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 14:40:10 - INFO - hitting/api/bug?pageIdx=1&sortDir=1
+23.11.2025, 14:40:12 - INFO - hitting/api/bug?pageIdx=2&sortDir=1
+23.11.2025, 14:40:14 - INFO - hitting/api/bug?pageIdx=1&sortDir=1
+23.11.2025, 14:40:14 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 14:40:27 - INFO - hitting/api/bug?pageIdx=1&sortDir=1
+23.11.2025, 14:40:42 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 14:40:43 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 14:40:46 - INFO - hitting/api/bug?pageIdx=1&sortDir=1
+23.11.2025, 14:41:19 - INFO - User login:  | {"_id":"u109","fullname":"Lior Peleg","isAdmin":false}
+23.11.2025, 14:41:21 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 14:41:22 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 14:41:36 - INFO - User login:  | {"_id":"u102","fullname":"Dana Levi","isAdmin":false}
+23.11.2025, 14:41:37 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 14:41:38 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 14:41:44 - ERROR - cannot update bug 6922f796b79fd88dbae3beaf | Error: Not your bug or bug not found
+23.11.2025, 14:41:44 - ERROR - Cannot save bug | Error: Not your bug or bug not found
+23.11.2025, 14:41:56 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 14:41:57 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 14:41:59 - ERROR - Cannot save bug | Error: Not your bug or bug not found
+23.11.2025, 14:41:59 - ERROR - cannot update bug 6922f796b79fd88dbae3beaf | Error: Not your bug or bug not found
+23.11.2025, 14:44:05 - ERROR - Cannot remove bug 6922f796b79fd88dbae3beaf | Error: Not your bug or bug not found
+23.11.2025, 14:44:05 - ERROR - Cannot remove bug 6922f796b79fd88dbae3beaf | Error: Not your bug or bug not found
+23.11.2025, 14:45:23 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 14:45:24 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 14:45:42 - ERROR - Cannot remove bug 6922f796b79fd88dbae3beaf | Error: Not your bug or bug not found
+23.11.2025, 14:45:42 - ERROR - Cannot remove bug 6922f796b79fd88dbae3beaf | Error: Not your bug or bug not found
+23.11.2025, 14:46:05 - INFO - Server listening on port http://localhost:3030/
+23.11.2025, 14:46:08 - ERROR - Cannot remove bug 6922f796b79fd88dbae3beaf | ReferenceError: bug is not defined
+23.11.2025, 14:46:31 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 14:46:31 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 14:46:35 - ERROR - cannot update bug 6922f796b79fd88dbae3beaf | Error: Not your bug or bug not found
+23.11.2025, 14:46:35 - ERROR - Cannot save bug | Error: Not your bug or bug not found
+23.11.2025, 14:50:11 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 14:50:11 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 14:50:13 - ERROR - Cannot remove bug 6922f796b79fd88dbae3beaf | ReferenceError: bug is not defined
+23.11.2025, 14:51:04 - INFO - Server listening on port http://localhost:3030/
+23.11.2025, 14:51:10 - ERROR - Cannot remove bug 6922f796b79fd88dbae3beaf | ReferenceError: bug is not defined
+23.11.2025, 14:51:49 - ERROR - cannot update bug 6922f796b79fd88dbae3beae | Error: Not your bug or bug not found
+23.11.2025, 14:51:49 - ERROR - Cannot save bug | Error: Not your bug or bug not found
+23.11.2025, 14:51:51 - ERROR - Cannot remove bug 6922f796b79fd88dbae3beae | ReferenceError: bug is not defined
+23.11.2025, 14:51:52 - ERROR - Cannot remove bug 6922f796b79fd88dbae3beae | ReferenceError: bug is not defined
+23.11.2025, 14:51:56 - ERROR - Cannot remove bug 6922f796b79fd88dbae3beaf | ReferenceError: bug is not defined
+23.11.2025, 14:52:32 - INFO - Server listening on port http://localhost:3030/
+23.11.2025, 14:52:35 - ERROR - Cannot remove bug 6922f796b79fd88dbae3beaf | ReferenceError: bug is not defined
+23.11.2025, 14:53:39 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 14:53:39 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 14:53:41 - ERROR - Cannot remove bug 6922f796b79fd88dbae3beaf | ReferenceError: bug is not defined
+23.11.2025, 14:56:24 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 14:56:24 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 14:56:25 - ERROR - Cannot remove bug 6922f796b79fd88dbae3beaf | ReferenceError: bug is not defined
+23.11.2025, 14:59:43 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 14:59:43 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 14:59:46 - ERROR - Cannot remove bug 6922f796b79fd88dbae3beaf | ReferenceError: bug is not defined
+23.11.2025, 15:00:09 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 15:00:09 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 15:00:11 - ERROR - Cannot remove bug 6922f796b79fd88dbae3beaf | ReferenceError: bug is not defined
+23.11.2025, 15:04:16 - INFO - Server listening on port http://localhost:3030/
+23.11.2025, 15:04:22 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 15:04:22 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 15:04:28 - INFO - User login:  | {"_id":"u102","fullname":"Dana Levi","isAdmin":false}
+23.11.2025, 15:04:30 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 15:04:30 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 15:04:50 - ERROR - Cannot remove bug 6922f796b79fd88dbae3beae | Error: Not your bug or bug not found
+23.11.2025, 15:04:50 - ERROR - Cannot remove bug 6922f796b79fd88dbae3beae | Error: Not your bug or bug not found
+23.11.2025, 15:07:52 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 15:07:52 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 15:07:54 - INFO - hitting/api/bug?pageIdx=1&sortDir=1
+23.11.2025, 15:07:54 - INFO - hitting/api/bug?pageIdx=2&sortDir=1
+23.11.2025, 15:17:55 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 15:17:56 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 15:23:23 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 15:23:25 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 15:23:25 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 15:23:39 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 15:23:45 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 15:23:51 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 15:26:11 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 15:26:28 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 15:26:49 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 15:26:57 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 15:27:27 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 15:28:02 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 15:28:14 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 15:29:32 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 15:29:35 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 15:29:37 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 15:29:48 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 15:39:55 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 15:39:55 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 15:40:10 - INFO - User login:  | {"_id":"u101","fullname":"Muki Ja","isAdmin":true}
+23.11.2025, 15:42:00 - INFO - Server listening on port http://localhost:3030/
+23.11.2025, 15:43:39 - ERROR - Cannot save user | ReferenceError: logger is not defined
+23.11.2025, 15:45:10 - ERROR - Cannot save user | ReferenceError: logger is not defined
+23.11.2025, 15:45:56 - INFO - Server listening on port http://localhost:3030/
+23.11.2025, 15:46:08 - ERROR - cannot update user 69230f7838eb9a762986dc7d | ReferenceError: ObjectId is not defined
+23.11.2025, 15:46:08 - ERROR - Cannot save user | ReferenceError: ObjectId is not defined
+23.11.2025, 15:47:30 - ERROR - cannot update user 69230f7838eb9a762986dc7d | ReferenceError: ObjectId is not defined
+23.11.2025, 15:47:30 - ERROR - Cannot save user | ReferenceError: ObjectId is not defined
+23.11.2025, 15:47:39 - INFO - Server listening on port http://localhost:3030/
+23.11.2025, 15:48:17 - ERROR - while finding user by id: 69230f7838eb9a762986dc7d | ReferenceError: reviewService is not defined
+23.11.2025, 15:48:17 - ERROR - Couldn't get user 69230f7838eb9a762986dc7d | ReferenceError: reviewService is not defined
+23.11.2025, 15:48:17 - INFO - hitting/api/bug?createdBy=69230f7838eb9a762986dc7d
+23.11.2025, 15:48:23 - ERROR - while finding user by id: 69230800db00cbc554546b3c | ReferenceError: reviewService is not defined
+23.11.2025, 15:48:23 - ERROR - Couldn't get user 69230800db00cbc554546b3c | ReferenceError: reviewService is not defined
+23.11.2025, 15:48:23 - INFO - hitting/api/bug?createdBy=69230800db00cbc554546b3c
+23.11.2025, 15:49:10 - INFO - Server listening on port http://localhost:3030/
+23.11.2025, 15:49:31 - INFO - hitting/api/bug?createdBy=69230f7838eb9a762986dc7d
+23.11.2025, 15:49:36 - INFO - hitting/api/bug?createdBy=69230f7838eb9a762986dc7d
+23.11.2025, 16:54:43 - INFO - Server listening on port http://localhost:3030/
+23.11.2025, 17:23:10 - INFO - Server listening on port http://localhost:3030/
+23.11.2025, 17:29:07 - INFO - User login:  | {"_id":"6923282838eb9a762986dc80","fullname":"Dana Levi","isAdmin":false}
+23.11.2025, 17:29:09 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 17:29:09 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 17:29:11 - INFO - hitting/api/bug?pageIdx=1&sortDir=1
+23.11.2025, 17:29:12 - INFO - hitting/api/bug?pageIdx=2&sortDir=1
+23.11.2025, 17:29:27 - INFO - User login:  | {"_id":"69230800db00cbc554546b36","fullname":"Muki Ja mongo","isAdmin":true}
+23.11.2025, 17:29:41 - INFO - Server listening on port http://localhost:3030/
+23.11.2025, 17:33:01 - INFO - Server listening on port http://localhost:3030/
+23.11.2025, 17:33:06 - ERROR - Cannot remove user 69232914b79fd88dbae3bec1 | Error: Cannot delete user - has 1 bugs
+23.11.2025, 17:33:06 - ERROR - cannot remove user 69232914b79fd88dbae3bec1 | Error: Cannot delete user - has 1 bugs
+23.11.2025, 17:35:36 - INFO - hitting/api/bug?createdBy=69230800db00cbc554546b36
+23.11.2025, 17:35:38 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 17:35:38 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 17:35:39 - INFO - hitting/api/bug?createdBy=69230800db00cbc554546b36
+23.11.2025, 17:35:41 - INFO - hitting/api/bug?createdBy=69230800db00cbc554546b36
+23.11.2025, 17:36:00 - INFO - hitting/api/bug?createdBy=69230800db00cbc554546b36
+23.11.2025, 17:36:04 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 17:36:05 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 17:36:07 - INFO - hitting/api/bug?createdBy=69230800db00cbc554546b36
+23.11.2025, 17:36:17 - INFO - User login:  | {"_id":"69232914b79fd88dbae3bec1","fullname":"Dana Levi","isAdmin":false}
+23.11.2025, 17:36:18 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 17:36:18 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 17:36:20 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:36:30 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 17:36:30 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 17:36:31 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:39:23 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:39:24 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:39:26 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:39:27 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:39:30 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:39:32 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:39:50 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:39:55 - INFO - hitting/api/bug
+23.11.2025, 17:39:55 - INFO - hitting/api/bug
+23.11.2025, 17:40:00 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:40:04 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:40:48 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:40:55 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 17:40:55 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 17:40:56 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:42:12 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:43:23 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:43:26 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:44:09 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:44:10 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:44:26 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:44:27 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:44:53 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:45:58 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:46:04 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:46:28 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:46:34 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:46:34 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:46:36 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:46:37 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:47:06 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:47:08 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:47:08 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:47:11 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:47:14 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:47:15 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:47:16 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:47:16 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:47:24 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:47:27 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:47:29 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:47:41 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:47:43 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:47:48 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:47:53 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:47:57 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:48:31 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:48:33 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:48:47 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:48:47 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:48:51 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:49:59 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:50:04 - INFO - Server listening on port http://localhost:3030/
+23.11.2025, 17:50:09 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:50:55 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:52:54 - INFO - Server listening on port http://localhost:3030/
+23.11.2025, 17:52:59 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:55:18 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 17:55:18 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 17:55:20 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:55:33 - INFO - Server listening on port http://localhost:3030/
+23.11.2025, 17:55:37 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:56:49 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:57:07 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:57:08 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:57:11 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:57:11 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:57:34 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:57:37 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:57:37 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+23.11.2025, 17:58:45 - INFO - Server listening on port http://localhost:3030/

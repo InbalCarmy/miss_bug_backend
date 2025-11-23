@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "node server.js",
-    "dev": "set PORT=3030 & nodemon --ignore \"./data\" server.js",
+    "dev": "nodemon server.js",
     "dev:mac": "export PORT=3030 && nodemon --ignore \"./data\" server.js"
   },
   "author": "",
@@ -21,6 +21,6 @@
     "mongodb": "^7.0.0"
   },
   "devDependencies": {
-    "nodemon": "^3.1.10"
+    "nodemon": "^3.1.11"
   }
 }
