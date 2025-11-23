@@ -17,7 +17,7 @@
     {
         "_id": "a1b2c3",
         "title": "Failed to load user profile",
-        "severity": 5,
+        "severity": 6,
         "description": "User profiles fail to load due to missing or corrupted data returned from the API. Affects login and personalization features.",
         "labels": [
             "backend",

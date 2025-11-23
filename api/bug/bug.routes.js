@@ -8,7 +8,7 @@ const router = express.Router()
 
 router.get('/',log ,getBugs)
 router.get('/:bugId',log ,getBug)
-router.delete('/:bugId',log ,requireAuth, removeBug)
+router.delete('/:bugId',requireAuth, removeBug)
 router.put('/:bugId',requireAuth, updateBug)
 router.post('/',requireAuth, addBug)
 

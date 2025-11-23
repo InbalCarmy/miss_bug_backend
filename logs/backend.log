@@ -440,3 +440,462 @@
 18.11.2025, 16:05:20 - INFO - hitting/api/bug/?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
 18.11.2025, 16:05:29 - INFO - User login:  | {"_id":"u101","fullname":"Muki Ja","isAdmin":true}
 18.11.2025, 16:13:49 - INFO - Server listening on port http://localhost:3030/
+20.11.2025, 15:11:12 - INFO - Server listening on port http://localhost:3030/
+20.11.2025, 15:11:39 - INFO - hitting/api/bug/?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+20.11.2025, 15:11:39 - INFO - hitting/api/bug/?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+20.11.2025, 15:11:44 - INFO - User login:  | {"_id":"u102","fullname":"Dana Levi","isAdmin":false}
+20.11.2025, 15:11:46 - INFO - hitting/api/bug/?createdBy=u102
+20.11.2025, 15:11:50 - INFO - hitting/api/bug/?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+20.11.2025, 15:11:50 - INFO - hitting/api/bug/?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+20.11.2025, 15:11:52 - INFO - hitting/api/bug/?txt=&minSeverity=0&pageIdx=1&sortBy=&sortDir=1
+20.11.2025, 15:12:26 - INFO - hitting/api/bug/?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+20.11.2025, 15:12:26 - INFO - hitting/api/bug/?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+20.11.2025, 15:33:35 - INFO - hitting/api/bug/?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+20.11.2025, 15:33:36 - INFO - hitting/api/bug/?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+20.11.2025, 15:35:35 - INFO - User login:  | {"_id":"u101","fullname":"Muki Ja","isAdmin":true}
+20.11.2025, 15:35:40 - INFO - hitting/api/bug/?createdBy=u103
+20.11.2025, 15:38:39 - INFO - hitting/api/bug/?createdBy=u103
+20.11.2025, 15:40:09 - INFO - hitting/api/bug/?createdBy=u103
+20.11.2025, 15:40:09 - INFO - hitting/api/bug/?createdBy=u103
+20.11.2025, 15:40:45 - INFO - hitting/api/bug/?createdBy=u103
+20.11.2025, 15:42:52 - INFO - hitting/api/bug/?createdBy=u101
+20.11.2025, 15:45:50 - INFO - hitting/api/bug/?createdBy=u101
+20.11.2025, 15:45:58 - INFO - hitting/api/bug/?createdBy=u101
+20.11.2025, 15:48:46 - INFO - hitting/api/bug/?createdBy=u101
+20.11.2025, 15:48:49 - INFO - hitting/api/bug/?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+20.11.2025, 15:48:49 - INFO - hitting/api/bug/?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+20.11.2025, 15:48:53 - INFO - User login:  | {"_id":"u101","fullname":"Muki Ja","isAdmin":true}
+20.11.2025, 15:48:57 - INFO - hitting/api/bug/?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+20.11.2025, 15:48:57 - INFO - hitting/api/bug/?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+20.11.2025, 15:49:02 - INFO - hitting/api/bug/kpcRpJ
+20.11.2025, 16:07:26 - INFO - hitting/api/bug/?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+20.11.2025, 16:09:54 - INFO - hitting/api/bug?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+20.11.2025, 16:10:55 - INFO - hitting/api/bug?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+20.11.2025, 16:10:58 - INFO - hitting/api/bug?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+20.11.2025, 16:11:00 - INFO - hitting/api/bug?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+20.11.2025, 16:11:01 - INFO - hitting/api/bug?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+20.11.2025, 16:11:03 - INFO - hitting/api/bug?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+20.11.2025, 16:11:04 - INFO - hitting/api/bug?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+20.11.2025, 16:11:07 - INFO - hitting/api/bug?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+20.11.2025, 16:11:21 - INFO - hitting/api/bug?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+20.11.2025, 16:11:29 - INFO - hitting/api/bug?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+20.11.2025, 16:11:31 - INFO - hitting/api/bug?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+20.11.2025, 16:11:33 - INFO - hitting/api/bug?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+20.11.2025, 16:11:38 - INFO - hitting/api/bug?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+20.11.2025, 16:11:42 - INFO - hitting/api/bug?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+20.11.2025, 16:12:59 - INFO - hitting/api/bug?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+20.11.2025, 16:13:03 - INFO - hitting/api/bug?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+20.11.2025, 16:13:08 - INFO - hitting/api/bug?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+20.11.2025, 16:13:11 - INFO - hitting/api/bug?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+20.11.2025, 16:13:30 - INFO - hitting/api/bug?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+20.11.2025, 16:14:45 - INFO - hitting/api/bug?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+20.11.2025, 17:02:29 - INFO - hitting/api/bug?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+20.11.2025, 17:02:30 - INFO - hitting/api/bug?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+20.11.2025, 17:14:04 - INFO - hitting/api/bug?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+20.11.2025, 17:14:04 - INFO - hitting/api/bug?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+20.11.2025, 17:14:06 - INFO - hitting/api/bug?txt=&minSeverity=0&pageIdx=1&sortBy=&sortDir=1
+20.11.2025, 17:14:16 - INFO - User login:  | {"_id":"u103","fullname":"Roni Cohen","isAdmin":false}
+20.11.2025, 17:14:18 - INFO - hitting/api/bug?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+20.11.2025, 17:14:19 - INFO - hitting/api/bug?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+20.11.2025, 17:16:26 - INFO - hitting/api/bug?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+20.11.2025, 17:16:26 - INFO - hitting/api/bug?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+20.11.2025, 17:16:29 - INFO - hitting/api/bug?txt=&minSeverity=0&pageIdx=1&sortBy=&sortDir=1
+20.11.2025, 17:21:20 - INFO - Server listening on port http://localhost:3030/
+20.11.2025, 17:21:31 - INFO - hitting/api/bug?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+20.11.2025, 17:21:31 - ERROR - Cannot filter bugs | TypeError: bugsToDisplay.skip is not a function
+20.11.2025, 17:21:31 - ERROR - Cannot get bugs | TypeError: bugsToDisplay.skip is not a function
+20.11.2025, 17:21:31 - INFO - hitting/api/bug?txt=&minSeverity=0&pageIdx=0&sortBy=&sortDir=1
+20.11.2025, 17:21:31 - ERROR - Cannot get bugs | TypeError: bugsToDisplay.skip is not a function
+20.11.2025, 17:21:31 - ERROR - Cannot filter bugs | TypeError: bugsToDisplay.skip is not a function
+20.11.2025, 17:24:43 - INFO - hitting/api/bug?minSeverity=0&pageIdx=0&sortDir=1
+20.11.2025, 17:24:43 - ERROR - Cannot filter bugs | TypeError: bugsToDisplay.skip is not a function
+20.11.2025, 17:24:43 - ERROR - Cannot get bugs | TypeError: bugsToDisplay.skip is not a function
+20.11.2025, 17:25:18 - INFO - hitting/api/bug?minSeverity=0&pageIdx=0&sortDir=1
+20.11.2025, 17:25:18 - ERROR - Cannot filter bugs | TypeError: bugsToDisplay.skip is not a function
+20.11.2025, 17:25:18 - ERROR - Cannot get bugs | TypeError: bugsToDisplay.skip is not a function
+20.11.2025, 17:25:25 - INFO - hitting/api/bug?minSeverity=0&pageIdx=0&sortDir=1
+20.11.2025, 17:25:25 - ERROR - Cannot filter bugs | TypeError: bugsToDisplay.skip is not a function
+20.11.2025, 17:25:25 - ERROR - Cannot get bugs | TypeError: bugsToDisplay.skip is not a function
+20.11.2025, 17:25:26 - INFO - hitting/api/bug?minSeverity=0&pageIdx=0&sortDir=1
+20.11.2025, 17:25:26 - ERROR - Cannot filter bugs | TypeError: bugsToDisplay.skip is not a function
+20.11.2025, 17:25:26 - ERROR - Cannot get bugs | TypeError: bugsToDisplay.skip is not a function
+20.11.2025, 17:25:38 - INFO - hitting/api/bug?minSeverity=0&pageIdx=0&sortDir=1
+20.11.2025, 17:25:38 - ERROR - Cannot filter bugs | TypeError: bugsToDisplay.skip is not a function
+20.11.2025, 17:25:38 - ERROR - Cannot get bugs | TypeError: bugsToDisplay.skip is not a function
+20.11.2025, 17:25:39 - INFO - hitting/api/bug?minSeverity=0&pageIdx=0&sortDir=1
+20.11.2025, 17:25:39 - ERROR - Cannot filter bugs | TypeError: bugsToDisplay.skip is not a function
+20.11.2025, 17:25:39 - ERROR - Cannot get bugs | TypeError: bugsToDisplay.skip is not a function
+20.11.2025, 17:25:39 - INFO - hitting/api/bug?minSeverity=0&pageIdx=0&sortDir=1
+20.11.2025, 17:25:39 - ERROR - Cannot filter bugs | TypeError: bugsToDisplay.skip is not a function
+20.11.2025, 17:25:39 - ERROR - Cannot get bugs | TypeError: bugsToDisplay.skip is not a function
+20.11.2025, 17:26:02 - INFO - hitting/api/bug?minSeverity=0&pageIdx=0&sortDir=1
+20.11.2025, 17:26:02 - ERROR - Cannot filter bugs | TypeError: bugsToDisplay.skip is not a function
+20.11.2025, 17:26:02 - ERROR - Cannot get bugs | TypeError: bugsToDisplay.skip is not a function
+20.11.2025, 17:26:02 - INFO - hitting/api/bug?minSeverity=0&pageIdx=0&sortDir=1
+20.11.2025, 17:26:02 - ERROR - Cannot filter bugs | TypeError: bugsToDisplay.skip is not a function
+20.11.2025, 17:26:02 - ERROR - Cannot get bugs | TypeError: bugsToDisplay.skip is not a function
+20.11.2025, 17:26:07 - INFO - hitting/api/bug?minSeverity=0&pageIdx=0&sortDir=1
+20.11.2025, 17:26:08 - ERROR - Cannot filter bugs | TypeError: bugsToDisplay.skip is not a function
+20.11.2025, 17:26:08 - ERROR - Cannot get bugs | TypeError: bugsToDisplay.skip is not a function
+20.11.2025, 17:26:16 - INFO - hitting/api/bug?minSeverity=0&pageIdx=0&sortDir=1
+20.11.2025, 17:26:16 - ERROR - Cannot filter bugs | TypeError: bugsToDisplay.skip is not a function
+20.11.2025, 17:26:16 - ERROR - Cannot get bugs | TypeError: bugsToDisplay.skip is not a function
+20.11.2025, 17:26:16 - INFO - hitting/api/bug?minSeverity=0&pageIdx=0&sortDir=1
+20.11.2025, 17:26:16 - ERROR - Cannot get bugs | TypeError: bugsToDisplay.skip is not a function
+20.11.2025, 17:26:16 - ERROR - Cannot filter bugs | TypeError: bugsToDisplay.skip is not a function
+20.11.2025, 17:26:23 - INFO - hitting/api/bug?minSeverity=0&pageIdx=0&sortDir=1
+20.11.2025, 17:26:23 - ERROR - Cannot get bugs | TypeError: bugsToDisplay.skip is not a function
+20.11.2025, 17:26:23 - ERROR - Cannot filter bugs | TypeError: bugsToDisplay.skip is not a function
+20.11.2025, 17:26:24 - INFO - hitting/api/bug?minSeverity=0&pageIdx=0&sortDir=1
+20.11.2025, 17:26:24 - ERROR - Cannot filter bugs | TypeError: bugsToDisplay.skip is not a function
+20.11.2025, 17:26:24 - ERROR - Cannot get bugs | TypeError: bugsToDisplay.skip is not a function
+20.11.2025, 17:26:39 - INFO - hitting/api/bug?minSeverity=0&pageIdx=0&sortDir=1
+20.11.2025, 17:26:39 - ERROR - Cannot get bugs | TypeError: bugsToDisplay.skip is not a function
+20.11.2025, 17:26:39 - ERROR - Cannot filter bugs | TypeError: bugsToDisplay.skip is not a function
+20.11.2025, 17:26:39 - INFO - hitting/api/bug?minSeverity=0&pageIdx=0&sortDir=1
+20.11.2025, 17:26:39 - ERROR - Cannot filter bugs | TypeError: bugsToDisplay.skip is not a function
+20.11.2025, 17:26:39 - ERROR - Cannot get bugs | TypeError: bugsToDisplay.skip is not a function
+20.11.2025, 17:27:12 - INFO - hitting/api/bug
+20.11.2025, 17:27:12 - ERROR - Cannot filter bugs | TypeError: bugsToDisplay.toArray is not a function
+20.11.2025, 17:27:12 - ERROR - Cannot get bugs | TypeError: bugsToDisplay.toArray is not a function
+20.11.2025, 17:27:22 - INFO - hitting/api/bug
+20.11.2025, 17:27:22 - ERROR - Cannot filter bugs | TypeError: bugsToDisplay.toArray is not a function
+20.11.2025, 17:27:22 - ERROR - Cannot get bugs | TypeError: bugsToDisplay.toArray is not a function
+20.11.2025, 17:27:22 - INFO - hitting/api/bug
+20.11.2025, 17:27:22 - ERROR - Cannot filter bugs | TypeError: bugsToDisplay.toArray is not a function
+20.11.2025, 17:27:22 - ERROR - Cannot get bugs | TypeError: bugsToDisplay.toArray is not a function
+20.11.2025, 17:29:24 - INFO - hitting/api/bug
+20.11.2025, 17:29:24 - ERROR - Cannot filter bugs | TypeError: bugsToDisplay.toArray is not a function
+20.11.2025, 17:29:24 - ERROR - Cannot get bugs | TypeError: bugsToDisplay.toArray is not a function
+20.11.2025, 17:29:24 - INFO - hitting/api/bug
+20.11.2025, 17:29:24 - ERROR - Cannot filter bugs | TypeError: bugsToDisplay.toArray is not a function
+20.11.2025, 17:29:24 - ERROR - Cannot get bugs | TypeError: bugsToDisplay.toArray is not a function
+20.11.2025, 17:30:39 - INFO - hitting/api/bug
+20.11.2025, 17:30:39 - ERROR - Cannot filter bugs | TypeError: bugsToDisplay.toArray is not a function
+20.11.2025, 17:30:39 - ERROR - Cannot get bugs | TypeError: bugsToDisplay.toArray is not a function
+20.11.2025, 17:30:39 - INFO - hitting/api/bug
+20.11.2025, 17:30:39 - ERROR - Cannot get bugs | TypeError: bugsToDisplay.toArray is not a function
+20.11.2025, 17:30:39 - ERROR - Cannot filter bugs | TypeError: bugsToDisplay.toArray is not a function
+20.11.2025, 17:31:54 - INFO - hitting/api/bug
+20.11.2025, 17:31:54 - ERROR - Cannot filter bugs | TypeError: bugsToDisplay.toArray is not a function
+20.11.2025, 17:31:54 - ERROR - Cannot get bugs | TypeError: bugsToDisplay.toArray is not a function
+20.11.2025, 17:31:54 - INFO - hitting/api/bug
+20.11.2025, 17:31:54 - ERROR - Cannot filter bugs | TypeError: bugsToDisplay.toArray is not a function
+20.11.2025, 17:31:54 - ERROR - Cannot get bugs | TypeError: bugsToDisplay.toArray is not a function
+20.11.2025, 17:34:46 - INFO - hitting/api/bug
+20.11.2025, 17:34:46 - ERROR - Cannot filter bugs | TypeError: bugsToDisplay.toArray is not a function
+20.11.2025, 17:34:46 - ERROR - Cannot get bugs | TypeError: bugsToDisplay.toArray is not a function
+20.11.2025, 17:34:47 - INFO - hitting/api/bug
+20.11.2025, 17:34:47 - ERROR - Cannot filter bugs | TypeError: bugsToDisplay.toArray is not a function
+20.11.2025, 17:34:47 - ERROR - Cannot get bugs | TypeError: bugsToDisplay.toArray is not a function
+20.11.2025, 17:35:00 - INFO - Server listening on port http://localhost:3030/
+20.11.2025, 17:35:04 - INFO - hitting/api/bug
+20.11.2025, 17:35:04 - INFO - hitting/api/bug
+20.11.2025, 17:35:08 - INFO - hitting/api/bug
+20.11.2025, 17:35:08 - INFO - hitting/api/bug
+20.11.2025, 17:35:33 - INFO - hitting/api/bug
+20.11.2025, 17:35:33 - INFO - hitting/api/bug
+20.11.2025, 17:35:38 - INFO - hitting/api/bug
+20.11.2025, 17:35:38 - INFO - hitting/api/bug
+20.11.2025, 17:38:08 - INFO - hitting/api/bug
+20.11.2025, 17:38:09 - INFO - hitting/api/bug
+20.11.2025, 17:38:10 - INFO - hitting/api/bug
+20.11.2025, 17:38:11 - INFO - hitting/api/bug
+20.11.2025, 17:38:26 - INFO - User login:  | {"_id":"u101","fullname":"Muki Ja","isAdmin":true}
+20.11.2025, 17:38:28 - INFO - hitting/api/bug
+20.11.2025, 17:38:28 - INFO - hitting/api/bug
+20.11.2025, 17:38:31 - INFO - hitting/api/bug
+20.11.2025, 17:38:32 - INFO - hitting/api/bug
+20.11.2025, 17:40:11 - INFO - hitting/api/bug
+20.11.2025, 17:40:12 - INFO - hitting/api/bug
+20.11.2025, 18:02:52 - INFO - hitting/api/bug
+20.11.2025, 18:02:53 - INFO - hitting/api/bug
+21.11.2025, 9:29:28 - INFO - hitting/api/bug
+21.11.2025, 9:29:29 - INFO - hitting/api/bug
+21.11.2025, 9:29:50 - INFO - hitting/api/bug
+21.11.2025, 9:29:50 - INFO - hitting/api/bug
+21.11.2025, 9:49:24 - INFO - hitting/api/bug
+21.11.2025, 9:49:24 - INFO - hitting/api/bug
+21.11.2025, 9:49:32 - INFO - hitting/api/bug?createdBy=u101
+21.11.2025, 9:49:34 - INFO - hitting/api/bug
+21.11.2025, 9:49:34 - INFO - hitting/api/bug
+21.11.2025, 9:49:48 - INFO - hitting/api/bug
+21.11.2025, 9:49:49 - INFO - hitting/api/bug
+21.11.2025, 9:50:02 - INFO - hitting/api/bug
+21.11.2025, 9:50:02 - INFO - hitting/api/bug
+21.11.2025, 9:50:22 - INFO - hitting/api/bug
+21.11.2025, 9:50:23 - INFO - hitting/api/bug
+21.11.2025, 9:50:26 - INFO - hitting/api/bug
+21.11.2025, 9:50:26 - INFO - hitting/api/bug
+21.11.2025, 9:58:39 - INFO - hitting/api/bug
+21.11.2025, 9:58:40 - INFO - hitting/api/bug
+21.11.2025, 10:00:01 - INFO - hitting/api/bug
+21.11.2025, 10:00:01 - INFO - hitting/api/bug
+21.11.2025, 10:00:46 - INFO - hitting/api/bug
+21.11.2025, 10:00:47 - INFO - hitting/api/bug
+21.11.2025, 10:01:56 - INFO - hitting/api/bug
+21.11.2025, 10:01:56 - INFO - hitting/api/bug
+21.11.2025, 10:02:53 - INFO - hitting/api/bug
+21.11.2025, 10:03:11 - INFO - hitting/api/bug
+21.11.2025, 10:03:11 - INFO - hitting/api/bug
+21.11.2025, 10:03:25 - INFO - hitting/api/bug
+21.11.2025, 10:03:27 - INFO - hitting/api/bug
+21.11.2025, 10:04:14 - INFO - hitting/api/bug
+21.11.2025, 10:04:16 - INFO - hitting/api/bug
+21.11.2025, 10:04:18 - INFO - hitting/api/bug
+21.11.2025, 10:04:20 - INFO - hitting/api/bug
+21.11.2025, 10:04:26 - INFO - hitting/api/bug
+21.11.2025, 10:04:36 - INFO - hitting/api/bug
+21.11.2025, 10:04:36 - INFO - hitting/api/bug
+21.11.2025, 10:04:37 - INFO - hitting/api/bug
+21.11.2025, 10:04:41 - INFO - hitting/api/bug
+21.11.2025, 10:04:41 - INFO - hitting/api/bug
+21.11.2025, 10:05:00 - INFO - hitting/api/bug
+21.11.2025, 10:05:02 - INFO - hitting/api/bug
+21.11.2025, 10:05:08 - INFO - hitting/api/bug
+21.11.2025, 10:05:08 - INFO - hitting/api/bug
+21.11.2025, 10:08:23 - INFO - hitting/api/bug
+21.11.2025, 10:08:38 - INFO - hitting/api/bug
+21.11.2025, 10:08:39 - INFO - hitting/api/bug
+21.11.2025, 10:09:14 - INFO - hitting/api/bug
+21.11.2025, 10:09:28 - INFO - hitting/api/bug
+21.11.2025, 10:09:28 - INFO - hitting/api/bug
+21.11.2025, 10:12:36 - INFO - hitting/api/bug
+21.11.2025, 10:12:37 - INFO - hitting/api/bug
+21.11.2025, 10:12:50 - INFO - hitting/api/bug?pageIdx=1
+21.11.2025, 10:12:50 - ERROR - Cannot filter bugs | TypeError: bugsToDisplay.skip is not a function
+21.11.2025, 10:12:50 - ERROR - Cannot get bugs | TypeError: bugsToDisplay.skip is not a function
+21.11.2025, 10:12:51 - INFO - hitting/api/bug
+21.11.2025, 10:12:59 - INFO - User login:  | {"_id":"u102","fullname":"Dana Levi","isAdmin":false}
+21.11.2025, 10:13:01 - INFO - hitting/api/bug
+21.11.2025, 10:13:01 - INFO - hitting/api/bug
+21.11.2025, 10:13:35 - INFO - hitting/api/bug
+21.11.2025, 10:13:35 - INFO - hitting/api/bug
+21.11.2025, 10:13:49 - INFO - User login:  | {"_id":"u106","fullname":"Noa Tal","isAdmin":false}
+21.11.2025, 10:13:53 - INFO - hitting/api/bug
+21.11.2025, 10:13:53 - INFO - hitting/api/bug
+21.11.2025, 10:13:57 - INFO - hitting/api/bug?pageIdx=1
+21.11.2025, 10:13:57 - ERROR - Cannot filter bugs | TypeError: bugsToDisplay.skip is not a function
+21.11.2025, 10:13:57 - ERROR - Cannot get bugs | TypeError: bugsToDisplay.skip is not a function
+21.11.2025, 10:14:02 - INFO - hitting/api/bug
+21.11.2025, 10:14:03 - INFO - hitting/api/bug
+21.11.2025, 10:14:15 - INFO - hitting/api/bug
+21.11.2025, 10:14:31 - INFO - hitting/api/bug
+21.11.2025, 10:14:37 - INFO - hitting/api/bug
+21.11.2025, 10:14:38 - INFO - hitting/api/bug
+21.11.2025, 10:14:39 - INFO - hitting/api/bug
+21.11.2025, 10:14:51 - INFO - hitting/api/bug
+21.11.2025, 10:14:52 - INFO - hitting/api/bug
+21.11.2025, 10:16:32 - INFO - hitting/api/bug/g7h8i9
+21.11.2025, 10:16:32 - ERROR - While finding bug g7h8i9 | BSONError: hex string must be 24 characters
+21.11.2025, 10:16:32 - ERROR - Couldn't get bug g7h8i9 | BSONError: hex string must be 24 characters
+21.11.2025, 10:16:37 - INFO - hitting/api/bug
+21.11.2025, 10:16:37 - INFO - hitting/api/bug
+21.11.2025, 10:16:39 - INFO - hitting/api/bug/g7h8i9
+21.11.2025, 10:16:39 - ERROR - While finding bug g7h8i9 | BSONError: hex string must be 24 characters
+21.11.2025, 10:16:39 - ERROR - Couldn't get bug g7h8i9 | BSONError: hex string must be 24 characters
+21.11.2025, 10:16:42 - INFO - hitting/api/bug
+21.11.2025, 10:16:42 - INFO - hitting/api/bug
+21.11.2025, 10:16:56 - INFO - hitting/api/bug
+21.11.2025, 10:17:57 - INFO - hitting/api/bug
+21.11.2025, 10:17:57 - INFO - hitting/api/bug
+21.11.2025, 10:20:22 - INFO - hitting/api/bug
+21.11.2025, 10:20:22 - INFO - hitting/api/bug
+21.11.2025, 10:20:36 - INFO - hitting/api/bug
+21.11.2025, 10:20:37 - INFO - hitting/api/bug
+21.11.2025, 10:20:46 - INFO - hitting/api/bug
+21.11.2025, 10:20:46 - INFO - hitting/api/bug
+21.11.2025, 10:22:53 - INFO - hitting/api/bug
+21.11.2025, 10:22:54 - INFO - hitting/api/bug
+21.11.2025, 10:26:44 - INFO - User login:  | {"_id":"u101","fullname":"Muki Ja","isAdmin":true}
+21.11.2025, 10:26:46 - INFO - hitting/api/bug
+21.11.2025, 10:26:46 - INFO - hitting/api/bug
+21.11.2025, 10:26:49 - INFO - hitting/api/bug/692021615e7c63064248dd4b
+21.11.2025, 10:26:49 - ERROR - Cannot remove bug 692021615e7c63064248dd4b | TypeError: Cannot destructure property 'loggedinUser' of 'asyncLocalStorage.getStore(...)' as it is undefined.
+21.11.2025, 10:27:10 - INFO - hitting/api/bug
+21.11.2025, 10:27:11 - INFO - hitting/api/bug
+21.11.2025, 10:29:13 - INFO - User login:  | {"_id":"u103","fullname":"Roni Cohen","isAdmin":false}
+21.11.2025, 10:32:17 - INFO - User login:  | {"_id":"u102","fullname":"Dana Levi","isAdmin":false}
+21.11.2025, 10:32:19 - INFO - hitting/api/bug
+21.11.2025, 10:32:19 - INFO - hitting/api/bug
+21.11.2025, 10:32:31 - INFO - hitting/api/bug
+21.11.2025, 10:32:31 - INFO - hitting/api/bug
+21.11.2025, 10:35:06 - INFO - hitting/api/bug
+21.11.2025, 10:35:06 - INFO - hitting/api/bug
+21.11.2025, 10:36:49 - INFO - Server listening on port http://localhost:3030/
+21.11.2025, 10:36:53 - INFO - hitting/api/bug
+21.11.2025, 10:36:54 - INFO - hitting/api/bug
+23.11.2025, 11:32:54 - INFO - Server listening on port http://localhost:3030/
+23.11.2025, 11:33:28 - INFO - hitting/api/bug
+23.11.2025, 11:33:28 - INFO - hitting/api/bug
+23.11.2025, 11:35:12 - INFO - Server listening on port http://localhost:3030/
+23.11.2025, 11:39:02 - INFO - hitting/api/bug?pageIdx=1
+23.11.2025, 11:39:02 - ERROR - Cannot filter bugs | TypeError: bugsToDisplay.skip is not a function
+23.11.2025, 11:39:02 - ERROR - Cannot get bugs | TypeError: bugsToDisplay.skip is not a function
+23.11.2025, 11:39:04 - INFO - hitting/api/bug
+23.11.2025, 11:39:13 - INFO - hitting/api/bug
+23.11.2025, 11:39:13 - INFO - hitting/api/bug
+23.11.2025, 11:51:56 - INFO - hitting/api/bug?txt=a
+23.11.2025, 11:51:59 - INFO - hitting/api/bug?txt=aa
+23.11.2025, 11:52:01 - INFO - hitting/api/bug
+23.11.2025, 11:52:01 - INFO - hitting/api/bug?txt=f
+23.11.2025, 11:52:10 - INFO - hitting/api/bug
+23.11.2025, 11:52:12 - INFO - hitting/api/bug?txt=fail
+23.11.2025, 11:52:12 - INFO - hitting/api/bug?txt=faile
+23.11.2025, 11:52:14 - INFO - hitting/api/bug?txt=fail
+23.11.2025, 11:52:15 - INFO - hitting/api/bug?txt=fai
+23.11.2025, 11:52:17 - INFO - hitting/api/bug?txt=f
+23.11.2025, 11:52:21 - INFO - hitting/api/bug?txt=f&minSeverity=4
+23.11.2025, 11:52:24 - INFO - hitting/api/bug?txt=f
+23.11.2025, 11:52:26 - INFO - hitting/api/bug
+23.11.2025, 11:52:28 - INFO - hitting/api/bug?minSeverity=4
+23.11.2025, 11:52:31 - INFO - hitting/api/bug
+23.11.2025, 11:52:32 - INFO - hitting/api/bug?labels%5B%5D=backend
+23.11.2025, 11:52:35 - INFO - hitting/api/bug?labels%5B%5D=API
+23.11.2025, 11:52:36 - INFO - hitting/api/bug?labels%5B%5D=backend
+23.11.2025, 11:52:39 - INFO - hitting/api/bug
+23.11.2025, 11:52:40 - INFO - hitting/api/bug
+23.11.2025, 11:52:42 - INFO - hitting/api/bug?sortBy=title
+23.11.2025, 11:53:03 - INFO - hitting/api/bug?sortBy=title&sortDir=-1
+23.11.2025, 11:53:06 - INFO - hitting/api/bug?sortBy=title
+23.11.2025, 11:53:08 - INFO - hitting/api/bug?sortBy=title&sortDir=-1
+23.11.2025, 11:54:29 - INFO - hitting/api/bug?sortBy=title&sortDir=-1
+23.11.2025, 11:54:33 - INFO - hitting/api/bug?sortBy=title&sortDir=-1
+23.11.2025, 11:54:34 - INFO - hitting/api/bug?sortBy=title&sortDir=-1
+23.11.2025, 11:54:37 - INFO - hitting/api/bug?sortBy=title&sortDir=-1
+23.11.2025, 11:54:39 - INFO - hitting/api/bug?sortBy=title&sortDir=-1
+23.11.2025, 11:54:41 - INFO - hitting/api/bug?sortBy=title&sortDir=-1
+23.11.2025, 11:54:43 - INFO - hitting/api/bug?sortBy=title&sortDir=-1
+23.11.2025, 11:54:43 - INFO - hitting/api/bug?sortBy=title&sortDir=-1
+23.11.2025, 11:54:46 - INFO - hitting/api/bug?sortBy=title&sortDir=-1
+23.11.2025, 11:54:48 - INFO - hitting/api/bug
+23.11.2025, 11:54:49 - INFO - hitting/api/bug
+23.11.2025, 11:54:56 - INFO - hitting/api/bug
+23.11.2025, 11:54:57 - INFO - hitting/api/bug
+23.11.2025, 11:54:57 - INFO - hitting/api/bug
+23.11.2025, 11:55:01 - INFO - hitting/api/bug?labels%5B%5D=API
+23.11.2025, 11:59:49 - INFO - hitting/api/bug
+23.11.2025, 11:59:50 - INFO - hitting/api/bug
+23.11.2025, 11:59:52 - INFO - hitting/api/bug?labels%5B%5D=API
+23.11.2025, 12:00:01 - INFO - Server listening on port http://localhost:3030/
+23.11.2025, 12:00:05 - INFO - hitting/api/bug
+23.11.2025, 12:00:05 - INFO - hitting/api/bug
+23.11.2025, 12:00:08 - INFO - hitting/api/bug?labels%5B%5D=API
+23.11.2025, 12:00:37 - INFO - hitting/api/bug?labels%5B%5D=user-data
+23.11.2025, 12:00:42 - INFO - hitting/api/bug?labels%5B%5D=backend
+23.11.2025, 12:01:27 - INFO - hitting/api/bug?txt=f&labels%5B%5D=backend
+23.11.2025, 12:01:42 - INFO - hitting/api/bug?txt=f&minSeverity=3&labels%5B%5D=backend
+23.11.2025, 12:01:54 - INFO - hitting/api/bug?txt=f&labels%5B%5D=backend
+23.11.2025, 12:01:56 - INFO - hitting/api/bug?labels%5B%5D=backend
+23.11.2025, 12:01:59 - INFO - hitting/api/bug?labels%5B%5D=backend&sortBy=severity
+23.11.2025, 12:02:06 - INFO - hitting/api/bug?labels%5B%5D=backend&sortBy=severity&sortDir=-1
+23.11.2025, 12:02:08 - INFO - hitting/api/bug?labels%5B%5D=backend&sortBy=severity
+23.11.2025, 12:02:17 - INFO - hitting/api/bug?labels%5B%5D=backend&sortBy=severity&sortDir=-1
+23.11.2025, 12:02:25 - INFO - hitting/api/bug?labels%5B%5D=backend&sortBy=createdAt&sortDir=-1
+23.11.2025, 12:02:30 - INFO - hitting/api/bug
+23.11.2025, 12:02:30 - INFO - hitting/api/bug
+23.11.2025, 12:02:34 - INFO - hitting/api/bug?sortBy=createdAt
+23.11.2025, 12:03:14 - INFO - hitting/api/bug?sortBy=createdAt&sortDir=-1
+23.11.2025, 12:03:48 - INFO - hitting/api/bug?sortBy=createdAt&sortDir=-1
+23.11.2025, 12:03:51 - INFO - hitting/api/bug?sortBy=createdAt&sortDir=-1
+23.11.2025, 12:03:51 - INFO - hitting/api/bug?sortBy=createdAt&sortDir=-1
+23.11.2025, 12:04:19 - INFO - hitting/api/bug?sortBy=createdAt&sortDir=-1
+23.11.2025, 12:04:23 - INFO - hitting/api/bug?sortBy=createdAt&sortDir=-1
+23.11.2025, 12:04:31 - INFO - hitting/api/bug?sortBy=createdAt&sortDir=-1
+23.11.2025, 12:04:31 - INFO - hitting/api/bug?sortBy=createdAt&sortDir=-1
+23.11.2025, 12:04:36 - INFO - hitting/api/bug?sortBy=createdAt&sortDir=-1
+23.11.2025, 12:04:38 - INFO - hitting/api/bug
+23.11.2025, 12:04:38 - INFO - hitting/api/bug
+23.11.2025, 12:04:41 - INFO - hitting/api/bug?sortBy=severity
+23.11.2025, 12:04:52 - INFO - hitting/api/bug?sortBy=severity&sortDir=-1
+23.11.2025, 12:05:02 - INFO - hitting/api/bug?sortBy=severity&sortDir=-1
+23.11.2025, 12:08:27 - INFO - hitting/api/bug
+23.11.2025, 12:08:28 - INFO - hitting/api/bug
+23.11.2025, 12:08:32 - INFO - hitting/api/bug?sortBy=severity
+23.11.2025, 12:09:20 - INFO - hitting/api/bug?sortBy=severity&sortDir=-1
+23.11.2025, 12:09:24 - INFO - hitting/api/bug?sortBy=severity
+23.11.2025, 12:09:44 - INFO - Server listening on port http://localhost:3030/
+23.11.2025, 12:09:51 - INFO - hitting/api/bug?sortBy=severity&sortDir=-1
+23.11.2025, 12:09:58 - INFO - hitting/api/bug?sortBy=severity
+23.11.2025, 12:12:52 - INFO - hitting/api/bug?sortBy=severity&sortDir=1
+23.11.2025, 12:12:55 - INFO - hitting/api/bug?sortBy=severity
+23.11.2025, 12:12:55 - INFO - hitting/api/bug?sortBy=severity
+23.11.2025, 12:12:57 - INFO - hitting/api/bug?sortBy=severity
+23.11.2025, 12:12:59 - INFO - hitting/api/bug?sortBy=severity
+23.11.2025, 12:13:00 - INFO - hitting/api/bug?sortBy=severity
+23.11.2025, 12:13:00 - INFO - hitting/api/bug?sortBy=severity
+23.11.2025, 12:13:07 - INFO - hitting/api/bug?sortBy=severity&sortDir=1
+23.11.2025, 12:13:09 - INFO - hitting/api/bug?sortBy=severity
+23.11.2025, 12:13:11 - INFO - hitting/api/bug?sortBy=severity
+23.11.2025, 12:13:13 - INFO - hitting/api/bug?sortBy=severity&sortDir=1
+23.11.2025, 12:13:17 - INFO - hitting/api/bug?sortDir=1
+23.11.2025, 12:13:17 - INFO - hitting/api/bug?sortDir=1
+23.11.2025, 12:13:34 - INFO - hitting/api/bug?sortBy=severity&sortDir=1
+23.11.2025, 12:13:38 - INFO - hitting/api/bug?sortBy=severity&sortDir=-1
+23.11.2025, 12:13:59 - INFO - hitting/api/bug?sortDir=1
+23.11.2025, 12:14:00 - INFO - hitting/api/bug?sortDir=1
+23.11.2025, 12:14:13 - INFO - hitting/api/bug?sortDir=1
+23.11.2025, 12:14:24 - INFO - hitting/api/bug?sortDir=1
+23.11.2025, 12:14:30 - INFO - hitting/api/bug?sortDir=1
+23.11.2025, 12:14:31 - INFO - hitting/api/bug?sortDir=1
+23.11.2025, 12:15:09 - INFO - User login:  | {"_id":"u101","fullname":"Muki Ja","isAdmin":true}
+23.11.2025, 12:15:11 - INFO - hitting/api/bug?sortDir=1
+23.11.2025, 12:15:11 - INFO - hitting/api/bug?sortDir=1
+23.11.2025, 12:15:13 - INFO - hitting/api/bug?createdBy=u101
+23.11.2025, 12:15:14 - INFO - hitting/api/bug?sortDir=1
+23.11.2025, 12:15:14 - INFO - hitting/api/bug?sortDir=1
+23.11.2025, 12:15:44 - ERROR - Cannot save bug | ReferenceError: logger is not defined
+23.11.2025, 12:26:26 - INFO - hitting/api/bug?sortDir=1
+23.11.2025, 12:26:27 - INFO - hitting/api/bug?sortDir=1
+23.11.2025, 12:40:08 - INFO - hitting/api/bug?sortDir=1
+23.11.2025, 12:40:09 - INFO - hitting/api/bug?sortDir=1
+23.11.2025, 12:40:14 - INFO - hitting/api/bug?sortBy=severity&sortDir=1
+23.11.2025, 12:40:19 - INFO - hitting/api/bug?sortBy=severity&sortDir=-1
+23.11.2025, 12:40:25 - INFO - hitting/api/bug?sortBy=title&sortDir=-1
+23.11.2025, 12:40:35 - INFO - hitting/api/bug?sortBy=title&sortDir=1
+23.11.2025, 12:42:10 - INFO - hitting/api/bug?sortDir=1
+23.11.2025, 12:42:10 - INFO - hitting/api/bug?sortDir=1
+23.11.2025, 12:42:13 - INFO - hitting/api/bug?sortBy=severity&sortDir=1
+23.11.2025, 12:42:16 - INFO - hitting/api/bug?sortBy=severity&sortDir=-1
+23.11.2025, 12:42:36 - INFO - hitting/api/bug?pageIdx=0&sortBy=severity&sortDir=-1
+23.11.2025, 12:42:36 - ERROR - Cannot filter bugs | TypeError: bugsToDisplay.skip is not a function
+23.11.2025, 12:42:36 - ERROR - Cannot get bugs | TypeError: bugsToDisplay.skip is not a function
+23.11.2025, 12:43:59 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 12:43:59 - ERROR - Cannot filter bugs | TypeError: bugsToDisplay.skip is not a function
+23.11.2025, 12:43:59 - ERROR - Cannot get bugs | TypeError: bugsToDisplay.skip is not a function
+23.11.2025, 12:43:59 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 12:43:59 - ERROR - Cannot filter bugs | TypeError: bugsToDisplay.skip is not a function
+23.11.2025, 12:43:59 - ERROR - Cannot get bugs | TypeError: bugsToDisplay.skip is not a function
+23.11.2025, 12:46:14 - INFO - Server listening on port http://localhost:3030/
+23.11.2025, 12:46:16 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 12:46:17 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 12:46:19 - INFO - hitting/api/bug?pageIdx=1&sortDir=1
+23.11.2025, 12:46:22 - INFO - hitting/api/bug?pageIdx=2&sortDir=1
+23.11.2025, 12:46:23 - INFO - hitting/api/bug?pageIdx=1&sortDir=1
+23.11.2025, 12:46:24 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 12:56:43 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 12:56:43 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 13:46:11 - ERROR - Cannot save bug | ReferenceError: logger is not defined
+23.11.2025, 13:50:35 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 13:50:36 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 13:50:41 - ERROR - Cannot save bug | ReferenceError: logger is not defined
+23.11.2025, 13:54:17 - INFO - Server listening on port http://localhost:3030/
+23.11.2025, 13:54:46 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 13:54:46 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 13:54:50 - ERROR - cannot update bug d4e5f6 | BSONError: hex string must be 24 characters
+23.11.2025, 13:54:50 - ERROR - Cannot save bug | BSONError: hex string must be 24 characters
+23.11.2025, 14:05:48 - INFO - Server listening on port http://localhost:3030/
+23.11.2025, 14:05:50 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 14:05:50 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 14:06:18 - INFO - hitting/api/bug?pageIdx=1&sortDir=1
+23.11.2025, 14:06:22 - INFO - hitting/api/bug?createdBy=u101
+23.11.2025, 14:10:09 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 14:10:09 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 14:11:27 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 14:11:28 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 14:11:32 - INFO - User login:  | {"_id":"u101","fullname":"Muki Ja","isAdmin":true}
+23.11.2025, 14:11:34 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 14:11:35 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 14:12:04 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 14:12:04 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+23.11.2025, 14:12:07 - INFO - hitting/api/bug?pageIdx=1&sortDir=1

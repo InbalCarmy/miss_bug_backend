@@ -7,16 +7,17 @@ export async function getBugs(req, res){
     const filterBy = {
         txt,
         minSeverity: minSeverity ? +minSeverity : 0,
-        labels: labels ? labels.split(',') : [],
+        // labels: labels ? labels.split(',') : [],
+        labels: Array.isArray(labels) ? labels : (labels ? labels.split(',') : []),
         sortBy: sortBy || 'createdAt',
         sortDir: sortDir ? +sortDir : -1,
         createdBy
-    }
+    }    
 
     if (pageIdx !== undefined) filterBy.pageIdx = +pageIdx
 
     try{
-        const bugs = await bugService.query(filterBy);
+        const bugs = await bugService.query(filterBy);        
         res.send(bugs)
     } catch (err){
         loggerService.error('Cannot get bugs', err)
@@ -55,7 +56,7 @@ export async function removeBug(req, res){
     const loggedinUser = req.loggedinUser
 
     try{    
-        await bugService.remove(bugId, loggedinUser);
+        await bugService.remove(bugId);
         res.send('Bug removed')       
     }catch (err) {
         loggerService.error(`Cannot remove bug ${bugId}`, err)
@@ -68,7 +69,7 @@ export async function updateBug(req, res){
     const bugToSave = { _id, title, severity, description, labels, creator }
     const loggedinUser = req.loggedinUser
     try{
-        const savedBug = await bugService.save(bugToSave, loggedinUser);
+        const savedBug = await bugService.update(bugToSave);
         res.send(savedBug)
     }catch (err) {
         loggerService.error('Cannot save bug', err)
@@ -81,7 +82,7 @@ export async function addBug(req, res){
     const bugToSave = { _id, title, severity, description, labels }
     const loggedinUser = req.loggedinUser
     try{
-        const savedBug = await bugService.save(bugToSave, loggedinUser);
+        const savedBug = await bugService.add(bugToSave);
         res.send(savedBug)
     }catch (err) {
         loggerService.error('Cannot save bug', err)
