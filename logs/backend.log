@@ -1161,3 +1161,29 @@
 23.11.2025, 17:57:37 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
 23.11.2025, 17:57:37 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
 23.11.2025, 17:58:45 - INFO - Server listening on port http://localhost:3030/
+25.11.2025, 12:05:40 - INFO - Server listening on port http://localhost:3030/
+25.11.2025, 12:05:53 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+25.11.2025, 12:05:58 - INFO - hitting/api/bug?createdBy=69232914b79fd88dbae3bec1
+25.11.2025, 12:06:03 - INFO - User login:  | {"_id":"69230800db00cbc554546b36","fullname":"Muki Ja","isAdmin":true}
+25.11.2025, 12:06:16 - ERROR - cannot remove user 69232914b79fd88dbae3bec1 | Error: Cannot delete user - has 6 bugs
+25.11.2025, 12:06:16 - ERROR - Cannot remove user 69232914b79fd88dbae3bec1 | Error: Cannot delete user - has 6 bugs
+25.11.2025, 12:25:47 - INFO - Server listening on port http://localhost:3030/
+25.11.2025, 12:25:57 - INFO - Server listening on port http://localhost:3030/
+25.11.2025, 12:31:00 - INFO - Server listening on port http://localhost:3030/
+25.11.2025, 12:31:04 - INFO - Server listening on port http://localhost:3030/
+25.11.2025, 12:31:09 - INFO - Server listening on port http://localhost:3030/
+25.11.2025, 12:32:50 - INFO - Server listening on port http://localhost:3030/
+25.11.2025, 12:32:59 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+25.11.2025, 12:32:59 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+25.11.2025, 12:33:06 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+25.11.2025, 12:33:06 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+25.11.2025, 12:33:09 - INFO - hitting/api/bug?pageIdx=1&sortDir=1
+25.11.2025, 12:33:15 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+25.11.2025, 12:33:24 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+25.11.2025, 12:33:25 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+25.11.2025, 12:33:35 - INFO - hitting/api/bug?pageIdx=1&sortDir=1
+25.11.2025, 12:33:36 - INFO - hitting/api/bug?pageIdx=2&sortDir=1
+25.11.2025, 12:33:37 - INFO - hitting/api/bug?pageIdx=3&sortDir=1
+25.11.2025, 12:34:28 - INFO - Server listening on port http://localhost:3030/
+25.11.2025, 12:44:46 - INFO - hitting/api/bug?pageIdx=0&sortDir=1
+25.11.2025, 12:44:46 - INFO - hitting/api/bug?pageIdx=0&sortDir=1

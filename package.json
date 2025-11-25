@@ -4,8 +4,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js",
+    "start": "nodemon server.js",
+    "dev": "set PORT=3030 & nodemon --ignore \"./data\" server.js",
     "dev:mac": "export PORT=3030 && nodemon --ignore \"./data\" server.js"
   },
   "author": "",

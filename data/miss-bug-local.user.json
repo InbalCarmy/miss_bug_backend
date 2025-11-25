@@ -10,16 +10,6 @@
 },
 {
   "_id": {
-    "$oid": "69230800db00cbc554546b37"
-  },
-  "fullname": "Dana Levi",
-  "username": "dana",
-  "password": "dana1234",
-  "score": 85,
-  "isAdmin": false
-},
-{
-  "_id": {
     "$oid": "69230800db00cbc554546b38"
   },
   "fullname": "Roni Cohen",
@@ -90,11 +80,21 @@
 },
 {
   "_id": {
-    "$oid": "692308a971c677e2688a1ed3"
+    "$oid": "69231dbe38eb9a762986dc7e"
   },
   "fullname": "Shani Refael",
-  "username": "shani",
-  "password": "shani1234",
-  "score": 91,
+  "username": "shanina",
+  "password": "1111",
+  "score": 30,
+  "isAdmin": false
+},
+{
+  "_id": {
+    "$oid": "69232914b79fd88dbae3bec1"
+  },
+  "fullname": "Dana Levi",
+  "username": "dana",
+  "password": "dana1234",
+  "score": 100,
   "isAdmin": false
 }]
